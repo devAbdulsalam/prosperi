@@ -13,7 +13,7 @@ const App = () => {
 		<div className="min-h-screen bg-gray-100">
 			<Navbar />
 			{/* <!-- hero seciton --> */}
-			<header className="bg-blue-500 text-white py-6">
+			<header id="home" className="bg-blue-500 text-white py-6 pt-20">
 				<div className="container mx-auto">
 					<div className="relative w-full h-[320px]  md:h-[420px]">
 						<div className="absolute  right-40 top-20  h-full hidden md:block">

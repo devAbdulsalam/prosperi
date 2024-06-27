@@ -8,8 +8,8 @@ const Navbar = () => {
 
 	return (
 		<nav
-			id="home"
-			className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5]"
+			
+			className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] fixed top-0 w-full z-50"
 		>
 			<div className="text-xl text-blue-500 font-extrabold md:pl-3">
 				Prosperi.
@@ -76,7 +76,7 @@ const Navbar = () => {
 				} md:flex md:w-auto px-2 py-2 md:rounded`}
 			>
 				<div className="flex justify-end">
-					<button className="flex items-center px-6 py-2.5 rounded-full border-blue-500 hover:bg-blue-500 hover:text-white font-medium">
+					<button className="flex items-center px-6 py-2.5 mr-3 rounded-full border-blue-500 hover:bg-blue-500 hover:text-white font-medium">
 						Login
 					</button>
 					<button className="flex items-center px-6 py-2.5 rounded-full bg-blue-500 hover:bg-blue-400 text-white font-medium">
