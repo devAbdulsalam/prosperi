@@ -25,3 +25,6 @@
 		74.1% 44.1%
 	);
 }
+.debug {
+	border: 1px red solid;
+}

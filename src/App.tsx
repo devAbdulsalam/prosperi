@@ -1,128 +1,67 @@
 // import React from 'react';
 import { motion } from 'framer-motion';
-
 import reward from './assets/reward.png';
 import transactions from './assets/transactions.png';
 import dashboard from './assets/dashboard.png';
 import dashboard2 from './assets/dashboard2.png';
-import dashboardd from './assets/dashboardd.png';
 import inclusion from './assets/inclusion.png';
+import Footer from './components/Footer';
+import Navbar from './components/NavBar';
 
 const App = () => {
 	return (
 		<div className="min-h-screen bg-gray-100">
-			<nav
-				id="home"
-				className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5]"
-			>
-				<div className="text-xl text-blue-500">Prosperi.</div>
-				<div className="flex md:hidden">
-					<button id="hamburger">
-						<img
-							className="toggle block"
-							src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
-							width="40"
-							height="40"
-						/>
-						<img
-							className="toggle hidden"
-							src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
-							width="40"
-							height="40"
-						/>
-					</button>
-				</div>
-				<div className=" toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none">
-					<a
-						href="#home"
-						className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
-					>
-						Home
-					</a>
-					<a
-						href="#services"
-						className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
-					>
-						Services
-					</a>
-					<a
-						href="#aboutus"
-						className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
-					>
-						About us
-					</a>
-					<a
-						href="#gallery"
-						className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
-					>
-						Gallery
-					</a>
-					<a
-						href="#contactUs"
-						className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
-					>
-						Contact
-					</a>
-				</div>
-
-				<div className="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded">
-					<div className="flex justify-end">
-						<button className="flex items-center px-6 py-2.5 rounded-full border-blue-500 hover:bg-blue-500 hover:text-white font-medium ">
-							Login
-						</button>
-						<button className="flex items-center px-6 py-2.5 rounded-full bg-blue-500 hover:bg-blue-400 text-white font-medium ">
-							Signup
-						</button>
-					</div>
-				</div>
-			</nav>
+			<Navbar />
 			{/* <!-- hero seciton --> */}
-			<div className="relative w-full  h-[320px]  md:h-[420px]">
-				<div className="absolute  right-40 top-20  h-full hidden md:block">
-					{/* <div className="absolute inset-0 opacity-70"> */}
-					<img
-						src={dashboard}
-						alt="Background Image"
-						className="object-cover object-center w-full h-full"
-					/>
-				</div>
-				<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
-					<div className="md:w-1/2 mb-4 md:mb-0">
-						<motion.h1
-							initial={{ opacity: 0, y: 50 }}
-							whileInView={{
-								opacity: 1,
-								y: 0,
-								transition: { delay: 0.2, duration: 0.5 },
-							}}
-							viewport={{ once: false, amount: 0.5 }}
-							className="text-grey-700 font-medium text-4xl md:text-5xl leading-tight mb-2"
-						>
-							Prosperi
-						</motion.h1>
-						<motion.p
-							initial={{ opacity: 0, y: 50 }}
-							whileInView={{
-								opacity: 1,
-								y: 0,
-								transition: { delay: 0.4, duration: 0.5 },
-							}}
-							viewport={{ once: false, amount: 0.5 }}
-							className="font-regular  md:text-xl mb-8 mt-4  leading-loose md:font-semibold"
-						>
-							With Celo Blockchain we provide Seamless, secure, and low-cost
-							cryptocurrency payments with a rewards system for small business
-							patrons.
-						</motion.p>
-						<a
-							href="#contactUs"
-							className="px-6 py-3 bg-blue-500 hover:bg-blue-400 text-white font-medium rounded-full transition duration-200"
-						>
-							Contact Us
-						</a>
+			<header className="bg-blue-500 text-white py-6">
+				<div className="container mx-auto">
+					<div className="relative w-full h-[320px]  md:h-[420px]">
+						<div className="absolute  right-40 top-20  h-full hidden md:block">
+							<img
+								src={dashboard}
+								alt="Background Image"
+								className="object-cover object-center w-full h-full"
+							/>
+						</div>
+						<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between z-10">
+							<div className="md:w-1/2 mb-4 md:mb-0">
+								<motion.h1
+									initial={{ opacity: 0, y: 50 }}
+									whileInView={{
+										opacity: 1,
+										y: 0,
+										transition: { delay: 0.2, duration: 0.5 },
+									}}
+									viewport={{ once: false, amount: 0.5 }}
+									className="text-grey-700 font-medium text-4xl md:text-5xl leading-tight mb-2"
+								>
+									Prosperi
+								</motion.h1>
+								<motion.p
+									initial={{ opacity: 0, y: 50 }}
+									whileInView={{
+										opacity: 1,
+										y: 0,
+										transition: { delay: 0.4, duration: 0.5 },
+									}}
+									viewport={{ once: false, amount: 0.5 }}
+									className="font-regular  md:text-xl mb-8 mt-4  leading-loose md:font-semibold"
+								>
+									With Celo Blockchain we provide Seamless, secure, and low-cost
+									cryptocurrency payments with a rewards system for small
+									business patrons.
+								</motion.p>
+								<a
+									href="#contactUs"
+									className="px-6 py-3 bg-white hover:bg-blue-100 text-blue-500 font-medium rounded-full transition duration-200"
+								>
+									Contact Us
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+			</header>
 			<section className="py-10 isolate relative" id="services">
 				<div
 					className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -220,17 +159,35 @@ const App = () => {
 			</section>
 
 			{/* Header */}
-			<header className="bg-blue-500 text-white py-6">
+			<section className="bg-blue-500 text-white py-6">
 				<div className="container mx-auto px-6">
-					<h1 className="text-4xl font-bold">
+					<motion.h1
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.2, duration: 0.5 },
+						}}
+						viewport={{ once: false, amount: 0.5 }}
+						className="text-4xl font-bold"
+					>
 						Prosperi Wallet with Celo Blockchain
-					</h1>
-					<p className="mt-2">
+					</motion.h1>
+					<motion.p
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.4, duration: 0.5 },
+						}}
+						viewport={{ once: false, amount: 0.5 }}
+						className="mt-2"
+					>
 						Seamless, secure, and low-cost cryptocurrency payments with a
 						rewards system for small business patrons.
-					</p>
+					</motion.p>
 				</div>
-			</header>
+			</section>
 
 			{/* <!-- why us  --> */}
 			<section className="text-gray-700 body-font mt-10  isolate relative">
@@ -349,7 +306,16 @@ const App = () => {
 				</div>
 				<h2 className="text-2xl font-bold mb-6">How It Works</h2>
 				<div className="space-y-4">
-					<div className="bg-white p-6 rounded-lg shadow-md">
+					<motion.div
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.2, duration: 0.5 },
+						}}
+						viewport={{ once: false, amount: 0.5 }}
+						className="bg-white p-6 rounded-lg shadow-md"
+					>
 						<h3 className="text-xl font-semibold mb-2">
 							1. Expense and Budgeting Tracking Tool
 						</h3>
@@ -357,29 +323,65 @@ const App = () => {
 							The user links financial accounts, categorizes expenses, sets
 							budgets, and tracks spending.
 						</p>
-					</div>
-					<div className="bg-white p-6 rounded-lg shadow-md">
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.2, duration: 0.5 },
+						}}
+						viewport={{ once: false, amount: 0.5 }}
+						className="bg-white p-6 rounded-lg shadow-md"
+					>
 						<h3 className="text-xl font-semibold mb-2">
 							3. Bill Payment Reminder
 						</h3>
 						<p>The user adds bills, sets reminders, and manages payments.</p>
-					</div>
-					<div className="bg-white p-6 rounded-lg shadow-md">
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.2, duration: 0.5 },
+						}}
+						viewport={{ once: false, amount: 0.5 }}
+						className="bg-white p-6 rounded-lg shadow-md"
+					>
 						<h3 className="text-xl font-semibold mb-2">6. Savings Planner</h3>
 						<p>
 							The user sets savings goals, automates savings, and tracks
 							progress.
 						</p>
-					</div>
-					<div className="bg-white p-6 rounded-lg shadow-md">
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.2, duration: 0.5 },
+						}}
+						viewport={{ once: false, amount: 0.5 }}
+						className="bg-white p-6 rounded-lg shadow-md"
+					>
 						<h3 className="text-xl font-semibold mb-2">
 							4. Payment and Transaction Tool
 						</h3>
 						<p>
 							The user sends and receives money and views transaction history.
 						</p>
-					</div>
-					<div className="bg-white p-6 rounded-lg shadow-md">
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.2, duration: 0.5 },
+						}}
+						viewport={{ once: false, amount: 0.5 }}
+						className="bg-white p-6 rounded-lg shadow-md"
+					>
 						<h3 className="text-xl font-semibold mb-2">
 							5. Financial Health Dashboard
 						</h3>
@@ -387,7 +389,7 @@ const App = () => {
 							The user has a consolidated view of their financial health, with
 							insights and reports.
 						</p>
-					</div>
+					</motion.div>
 				</div>
 			</section>
 
@@ -486,13 +488,31 @@ const App = () => {
 						</div>
 
 						<div className="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
-							<h1 className="text-center text-4xl font-bold text-gray-800  md:text-5xl">
+							<motion.h1
+								initial={{ opacity: 0, y: 50 }}
+								whileInView={{
+									opacity: 1,
+									y: 0,
+									transition: { delay: 0.2, duration: 0.5 },
+								}}
+								viewport={{ once: false, amount: 0.5 }}
+								className="text-center text-4xl font-bold text-gray-800  md:text-5xl"
+							>
 								Earn rewards on your crypto
-							</h1>
-							<p className="text-center text-xl text-gray-600">
+							</motion.h1>
+							<motion.p
+								initial={{ opacity: 0, y: 50 }}
+								whileInView={{
+									opacity: 1,
+									y: 0,
+									transition: { delay: 0.4, duration: 0.5 },
+								}}
+								viewport={{ once: false, amount: 0.5 }}
+								className="text-center text-xl text-gray-600"
+							>
 								Rewards are available on the assets listed below. Earnings are
 								paid out on a weekly basis in the same asset that earned them.*
-							</p>
+							</motion.p>
 							<div className="flex flex-wrap justify-center gap-6">
 								<a
 									href="#"
@@ -547,39 +567,7 @@ const App = () => {
 				</div>
 			</section>
 			{/* <!-- footer --> */}
-			<section>
-				<footer className="bg-gray-200 text-white py-4 px-3">
-					<div className="container mx-auto flex flex-wrap items-center justify-between">
-						<div className="w-full md:w-1/2 md:text-center md:mb-4 mb-8">
-							<p className="text-xs text-gray-400 md:text-sm">
-								Copyright © 2024 Prosperi. All Rights Reserved
-							</p>
-						</div>
-						<div className="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
-							<ul className="list-reset flex justify-center flex-wrap text-xs md:text-sm gap-3">
-								<li>
-									<a href="#home" className="text-gray-400 hover:text-white">
-										Home
-									</a>
-								</li>
-								<li>
-									<a
-										href="#contactUs"
-										className="text-gray-400 hover:text-white"
-									>
-										Contact
-									</a>
-								</li>
-								<li className="mx-4">
-									<a href="/privacy" className="text-gray-400 hover:text-white">
-										Privacy Policy
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</footer>
-			</section>
+			<Footer />
 		</div>
 	);
 };
