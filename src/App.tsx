@@ -158,7 +158,7 @@ const App = () => {
 				</div>
 			</section>
 
-			{/* Header */}
+			{/* call to action */}
 			<section className="bg-blue-500 text-white py-6">
 				<div className="container mx-auto px-6">
 					<motion.h1
@@ -432,7 +432,7 @@ const App = () => {
 					</div>
 				</div>
 			</section>
-			{/* all to action */}
+			{/* call to action */}
 			<div className="relative py-16">
 				<div
 					aria-hidden="true"
