@@ -7,10 +7,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav
-			
-			className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] fixed top-0 w-full z-50"
-		>
+		<nav className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] fixed top-0 w-full z-50">
 			<div className="text-xl text-blue-500 font-extrabold md:pl-3">
 				Prosperi.
 			</div>
@@ -58,12 +55,6 @@ const Navbar = () => {
 					About us
 				</a>
 				<a
-					href="#gallery"
-					className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
-				>
-					Gallery
-				</a>
-				<a
 					href="#contactUs"
 					className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
 				>
@@ -76,11 +67,8 @@ const Navbar = () => {
 				} md:flex md:w-auto px-2 py-2 md:rounded`}
 			>
 				<div className="flex justify-end">
-					<button className="flex items-center px-6 py-2.5 mr-3 rounded-full border-blue-500 hover:bg-blue-500 hover:text-white font-medium">
-						Login
-					</button>
 					<button className="flex items-center px-6 py-2.5 rounded-full bg-blue-500 hover:bg-blue-400 text-white font-medium">
-						Signup
+						Download app
 					</button>
 				</div>
 			</div>

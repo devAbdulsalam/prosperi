@@ -393,45 +393,6 @@ const App = () => {
 				</div>
 			</section>
 
-			{/* <!-- gallery --> */}
-			<section className="text-gray-700 body-font" id="gallery">
-				<div className="flex justify-center text-3xl font-bold text-gray-800 text-center py-10">
-					Gallery
-				</div>
-
-				<div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-					<div className="group relative">
-						<img
-							src={reward}
-							alt="Image 1"
-							className="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
-						/>
-					</div>
-
-					<div className="group relative">
-						<img
-							src={transactions}
-							alt="Image 1"
-							className="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
-						/>
-					</div>
-
-					<div className="group relative">
-						<img
-							src={reward}
-							alt="Image 1"
-							className="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
-						/>
-					</div>
-					<div className="group relative">
-						<img
-							src={dashboard}
-							alt="Image 1"
-							className="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
-						/>
-					</div>
-				</div>
-			</section>
 			{/* call to action */}
 			<div className="relative py-16">
 				<div
@@ -498,7 +459,7 @@ const App = () => {
 								viewport={{ once: false, amount: 0.5 }}
 								className="text-center text-4xl font-bold text-gray-800  md:text-5xl"
 							>
-								Earn rewards on your crypto
+								Earning rewards for your business
 							</motion.h1>
 							<motion.p
 								initial={{ opacity: 0, y: 50 }}
@@ -510,8 +471,9 @@ const App = () => {
 								viewport={{ once: false, amount: 0.5 }}
 								className="text-center text-xl text-gray-600"
 							>
-								Rewards are available on the assets listed below. Earnings are
-								paid out on a weekly basis in the same asset that earned them.*
+								Join millons earn ewards are available on the assets listed
+								below. Earnings are paid out on a weekly basis in the same asset
+								that earned them.*
 							</motion.p>
 							<div className="flex flex-wrap justify-center gap-6">
 								<a
@@ -519,7 +481,7 @@ const App = () => {
 									className="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-blue-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
 								>
 									<span className="relative text-base font-semibold text-white ">
-										Get Started
+										Download
 									</span>
 								</a>
 								<a
@@ -541,22 +503,11 @@ const App = () => {
 				<div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-20 lg:px-8">
 					<div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
 						<h2 className="text-3xl font-extrabold text-gray-900">
-							Margin, futures and opt-in rewards are subject to certain
-							geographic limitations and eligibility criteria.
+							Improve your business
 						</h2>
 						<p className="mt-3 text-lg text-gray-500">
 							Reward rates are subject to change and compliance with Kraken's
-							terms and conditions. These materials are for general information
-							purposes only and are not investment advice or a recommendation or
-							solicitation to buy, sell, stake or hold any cryptoasset or to
-							engage in any specific trading strategy. Some crypto products and
-							markets are unregulated, and you may not be protected by
-							government compensation and/or regulatory protection schemes. The
-							unpredictable nature of the cryptoasset markets can lead to loss
-							of funds. Tax may be payable on any return and/or on any increase
-							in the value of your cryptoassets and you should seek independent
-							advice on your taxation position. For more information, please see
-							our Terms of Service.
+							terms and conditions.
 						</p>
 						<p className="mt-3 text-lg text-gray-500">
 							Trading futures, derivatives and other instruments using leverage
