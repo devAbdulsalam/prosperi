@@ -220,7 +220,7 @@ const App = () => {
 									/>
 								</div>
 								<h2 className="title-font font-regular text-2xl text-gray-900">
-									Seamles and secure
+									Seamless and secure
 								</h2>
 							</div>
 						</motion.div>
@@ -289,7 +289,7 @@ const App = () => {
 									/>
 								</div>
 								<h2 className="title-font font-regular text-2xl text-gray-900">
-									Expertise in Industry
+									Industrial Expertise
 								</h2>
 							</div>
 						</motion.div>
