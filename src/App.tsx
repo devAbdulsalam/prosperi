@@ -423,7 +423,8 @@ const App = () => {
 			<Testimonial />
 			<section className="bg-white py-16 px-2 border-t border-white">
 				<h2 className="text-sm md:text-lg font-semibold mb-2 text-center">
-					What are you waiting for download Prosperi app{' '}
+					What are you waiting for download{' '}
+					<span className="text-[#0181F8]">Prosperi</span> app{' '}
 					<br className="hidden md:block" /> & get started now
 				</h2>
 				<motion.div

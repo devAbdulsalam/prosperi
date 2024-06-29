@@ -27,17 +27,17 @@ function Footer() {
 							</li>
 							<li className="mb-2">
 								<a href="#" className=" text-white hover:text-blue-500">
-									Icons Assets
+									Ambassadors
 								</a>
 							</li>
 							<li className="mb-2">
 								<a href="#" className=" text-white hover:text-blue-500">
-									Responsive Blocks
+									Privacy policy
 								</a>
 							</li>
 							<li className="mb-2">
 								<a href="#" className=" text-white hover:text-blue-500">
-									Components Library
+									Terms of use
 								</a>
 							</li>
 							<li className="mb-2">
@@ -147,17 +147,12 @@ function Footer() {
 							</li>
 							<li className="mb-2">
 								<a href="#" className=" text-white hover:text-blue-500">
+									User Guide
+								</a>
+							</li>
+							<li className="mb-2">
+								<a href="#" className=" text-white hover:text-blue-500">
 									Cookies
-								</a>
-							</li>
-							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
-									License
-								</a>
-							</li>
-							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
-									Terms & Conditions
 								</a>
 							</li>
 							<li>
@@ -172,7 +167,7 @@ function Footer() {
 				<div className="py-3 border-t border-gray-900 ">
 					<div className="flex items-center justify-center flex-col lg:space-y-0 space-y-8 lg:justify-between lg:flex-row">
 						<a href="#" className="">
-							<h4 className="text-white">Privacy and policy</h4>
+							<h4 className="text-white">Privacy Policy</h4>
 						</a>
 						<span className="text-white  block">
 							Copyright ©<a href="#">Prosperi</a> 2024 | All Rights Reserved.
