@@ -11,13 +11,13 @@ const Navbar = () => {
 
 	return (
 		<nav className="flex flex-wrap items-center justify-between p-3 bg-[#0181F8] text-white fixed top-0 w-full z-50 md:px-20 mx-auto">
-			<div className="text-xl  font-extrabold md:pl-3 flex">
+			<div className="text-xl font-extrabold md:pl-3 flex items-center ">
 				<img
 					src={logo}
 					alt="logo icon"
-					className="object-fit object-center h-[20px] w-[20px]"
+					className="object-fit object-center h-[20px] w-[20px] mr-2"
 				/>
-				Prosperi.
+				Prosperi
 			</div>
 			<div className="flex md:hidden">
 				<button id="hamburger" onClick={toggleMenu}>

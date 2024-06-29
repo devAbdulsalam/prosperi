@@ -1,55 +1,47 @@
 // import React from 'react';
+import logo from './../assets/logo.png';
 
-function Header() {
+function Footer() {
 	return (
 		<footer className="w-full bg-[#1E1E1E]" id="contactUs">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
 				<div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
-					<div className="block">
-						<h4 className="text-xl text-white font-bold mb-7">Prosperi</h4>
+					<div className="text-xl font-extrabold text-white md:pl-3 flex items-top">
+						<img
+							src={logo}
+							alt="logo icon"
+							className="object-fit object-center h-[20px] w-[20px] mr-2"
+						/>
+						{'   '}
+						Prosperi
 					</div>
 					{/* <!--End Col--> */}
 					<div className="block">
 						<h4 className="text-xl text-white font-bold mb-4">Company</h4>
 						<ul className="text-lg  transition-all duration-500">
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className="text-white hover:text-blue-500"
-								>
+								<a href="#" className="text-white hover:text-blue-500">
 									About Us
 								</a>
 							</li>
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									Icons Assets
 								</a>
 							</li>
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									Responsive Blocks
 								</a>
 							</li>
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									Components Library
 								</a>
 							</li>
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									Blog
 								</a>
 							</li>
@@ -60,16 +52,13 @@ function Header() {
 						<h4 className="text-xl text-white font-bold mb-2">Need Help</h4>
 						<ul className="text-lg  transition-all duration-500">
 							<li className="mb-3">
-								<a
-									href="javascript:;"
-									className="text-white hover:text-blue-500"
-								>
+								<a href="#" className="text-white hover:text-blue-500">
 									Support
 								</a>
 							</li>
 							<li className="mb-2">
 								<a
-									href="javascript:;"
+									href="#"
 									className=" text-white hover:text-blue-500 font-bold"
 								>
 									Socials
@@ -78,7 +67,7 @@ function Header() {
 						</ul>
 						<div className="flex mt-2 space-x-2 sm:justify-start sm:mt-0">
 							<a
-								href="javascript:;"
+								href="#"
 								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-300"
 							>
 								<svg
@@ -96,7 +85,7 @@ function Header() {
 								</svg>
 							</a>
 							<a
-								href="javascript:;"
+								href="#"
 								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600"
 							>
 								<svg
@@ -112,7 +101,7 @@ function Header() {
 								</svg>
 							</a>
 							<a
-								href="javascript:;"
+								href="#"
 								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600"
 							>
 								<svg
@@ -128,7 +117,7 @@ function Header() {
 								</svg>
 							</a>
 							<a
-								href="javascript:;"
+								href="#"
 								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600"
 							>
 								<svg
@@ -152,42 +141,27 @@ function Header() {
 						<h4 className="text-xl text-white font-bold mb-2">Resource</h4>
 						<ul className="text-lg  transition-all duration-500">
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className="text-white hover:text-blue-500"
-								>
+								<a href="#" className="text-white hover:text-blue-500">
 									Faq
 								</a>
 							</li>
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									Cookies
 								</a>
 							</li>
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									License
 								</a>
 							</li>
 							<li className="mb-2">
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									Terms & Conditions
 								</a>
 							</li>
 							<li>
-								<a
-									href="javascript:;"
-									className=" text-white hover:text-blue-500"
-								>
+								<a href="#" className=" text-white hover:text-blue-500">
 									Licences
 								</a>
 							</li>
@@ -210,4 +184,4 @@ function Header() {
 	);
 }
 
-export default Header;
+export default Footer;

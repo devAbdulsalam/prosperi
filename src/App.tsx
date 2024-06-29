@@ -98,9 +98,9 @@ const App = () => {
 										transition: { delay: 0.2, duration: 0.5 },
 									}}
 									viewport={{ once: false, amount: 0.5 }}
-									className="text-grey-700 font-medium text-4xl md:text-5xl leading-tight mb-2"
+									className="text-grey-700 font-extrabold text-4xl md:text-5xl leading-10 mb-2"
 								>
-									Prosperi
+									Empower <br /> your finance
 								</motion.h1>
 								<motion.p
 									initial={{ opacity: 0, y: 50 }}
@@ -112,9 +112,7 @@ const App = () => {
 									viewport={{ once: false, amount: 0.5 }}
 									className="font-regular  md:text-xl mb-8 mt-4  leading-loose md:font-semibold"
 								>
-									With Celo Blockchain we provide Seamless, secure, and low-cost
-									cryptocurrency payments with a rewards system for small
-									business patrons.
+									with block-chain powered productivity
 								</motion.p>
 								<img
 									src={ikImage}
@@ -169,7 +167,7 @@ const App = () => {
 						<img
 							src={sideImage}
 							alt="icon Image"
-							className="object-cover object-center h-[360px] w-full"
+							className="object-cover object-center h-[360px] w-full z-10"
 						/>
 						<motion.img
 							initial={{ opacity: 0, y: 50 }}
@@ -180,7 +178,7 @@ const App = () => {
 							}}
 							src={circleWhite}
 							alt="icon Image"
-							className="object-cover object-center h-[70px] w-[70px] absolute left-0"
+							className="object-cover object-center h-[70px] w-[70px] absolute -left-4 md:left-0"
 						/>
 						<motion.img
 							initial={{ opacity: 0, x: 50 }}
@@ -196,17 +194,17 @@ const App = () => {
 					</div>
 				</div>
 			</section>
-			<section className="py-16 isolate relative" id="why">
+			<section className="md:py-16 isolate relative" id="why">
 				<div
 					className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
 					aria-hidden="true"
 				>
 					<div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#7274e6] to-[#5856e2] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem] clipPath"></div>
 				</div>
-				<div className="mx-auto container flex flex-col md:flex-row items-center justify-center">
+				<div className="mx-auto container flex  md:flex-row items-center justify-center flex-col-reverse">
 					<div className="p-10">
 						<h3 className="text-xl font-semibold mb-2">WHY PROSPERI?</h3>
-						<h2 className="text-3xl font-bold mb-8">
+						<h2 className="text-2xl md:text-3xl font-bold mb-8">
 							Prosperi is ideal for boosting customer productivity with enhanced
 							security
 						</h2>
