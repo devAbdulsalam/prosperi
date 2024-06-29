@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import { AiOutlineMenu } from 'react-icons/ai';
+import { RiCloseLargeLine } from 'react-icons/ri';
+import logo from './../assets/logo.png';
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
@@ -7,26 +10,28 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] fixed top-0 w-full z-50">
-			<div className="text-xl text-blue-500 font-extrabold md:pl-3">
+		<nav className="flex flex-wrap items-center justify-between p-3 bg-[#0181F8] text-white fixed top-0 w-full z-50 md:px-20 mx-auto">
+			<div className="text-xl  font-extrabold md:pl-3 flex">
+				<img
+					src={logo}
+					alt="logo icon"
+					className="object-fit object-center h-[20px] w-[20px]"
+				/>
 				Prosperi.
 			</div>
 			<div className="flex md:hidden">
 				<button id="hamburger" onClick={toggleMenu}>
-					<img
+					<AiOutlineMenu
 						className={menuOpen ? 'hidden' : 'block'}
-						src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
 						width="40"
 						height="40"
-						alt="menu"
-						color="blue"
+						color="white"
 					/>
-					<img
+					<RiCloseLargeLine
 						className={menuOpen ? 'block' : 'hidden'}
-						src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
 						width="40"
 						height="40"
-						alt="close"
+						color="white"
 					/>
 				</button>
 			</div>
@@ -38,39 +43,28 @@ const Navbar = () => {
 			>
 				<a
 					href="#home"
-					className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
+					className="block md:inline-block hover:text-gray-500 font-semibold px-3 py-3 md:border-none"
 				>
 					Home
 				</a>
 				<a
-					href="#services"
-					className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
-				>
-					Services
-				</a>
-				<a
 					href="#aboutus"
-					className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
+					className="block md:inline-block hover:text-gray-500 font-semibold px-3 py-3 md:border-none"
 				>
-					About us
+					About
 				</a>
 				<a
-					href="#contactUs"
-					className="block md:inline-block hover:text-blue-500 font-semibold px-3 py-3 md:border-none"
+					href="#why"
+					className="block md:inline-block hover:text-gray-500 font-semibold px-3 py-3 md:border-none"
 				>
-					Contact
+					Why Choose us
 				</a>
-			</div>
-			<div
-				className={`w-full text-end ${
-					menuOpen ? 'block' : 'hidden'
-				} md:flex md:w-auto px-2 py-2 md:rounded`}
-			>
-				<div className="flex justify-end">
-					<button className="flex items-center px-6 py-2.5 rounded-full bg-blue-500 hover:bg-blue-400 text-white font-medium">
-						Download app
-					</button>
-				</div>
+				<a
+					href="#download"
+					className="block md:inline-block hover:text-gray-500 font-semibold px-3 py-3 md:border-none"
+				>
+					Download
+				</a>
 			</div>
 		</nav>
 	);

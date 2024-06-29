@@ -2,204 +2,84 @@
 
 function Header() {
 	return (
-		<footer className="w-full bg-[#e8e8e5]" id="contactUs">
+		<footer className="w-full bg-[#1E1E1E]" id="contactUs">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
 				<div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
 					<div className="block">
-						<h4 className="text-xl text-blue-500 font-bold mb-7">Prosperi</h4>
-						<ul className="text-lg  transition-all duration-500">
-							<li className="mb-6">
-								<a href="#" className="text-gray-800 hover:text-blue-500">
-									Home
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="Haboutus"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									About
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="#services"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Services
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="#gallery"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Gallery
-								</a>
-							</li>
-							<li>
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Pro Version
-								</a>
-							</li>
-						</ul>
+						<h4 className="text-xl text-white font-bold mb-7">Prosperi</h4>
 					</div>
 					{/* <!--End Col--> */}
 					<div className="block">
-						<h4 className="text-xl text-blue-500 font-bold mb-7">Products</h4>
+						<h4 className="text-xl text-white font-bold mb-4">Company</h4>
 						<ul className="text-lg  transition-all duration-500">
-							<li className="mb-6">
+							<li className="mb-2">
 								<a
 									href="javascript:;"
-									className="text-gray-800 hover:text-blue-500"
+									className="text-white hover:text-blue-500"
 								>
-									Figma UI System
+									About Us
 								</a>
 							</li>
-							<li className="mb-6">
+							<li className="mb-2">
 								<a
 									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
+									className=" text-white hover:text-blue-500"
 								>
 									Icons Assets
 								</a>
 							</li>
-							<li className="mb-6">
+							<li className="mb-2">
 								<a
 									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
+									className=" text-white hover:text-blue-500"
 								>
 									Responsive Blocks
 								</a>
 							</li>
-							<li className="mb-6">
+							<li className="mb-2">
 								<a
 									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
+									className=" text-white hover:text-blue-500"
 								>
 									Components Library
 								</a>
 							</li>
-							<li>
+							<li className="mb-2">
 								<a
 									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
+									className=" text-white hover:text-blue-500"
 								>
-									Plugin Guide
+									Blog
 								</a>
 							</li>
 						</ul>
 					</div>
 					{/* <!--End Col--> */}
 					<div className="block">
-						<h4 className="text-xl text-blue-500 font-bold mb-7">Resources</h4>
+						<h4 className="text-xl text-white font-bold mb-2">Need Help</h4>
 						<ul className="text-lg  transition-all duration-500">
-							<li className="mb-6">
+							<li className="mb-3">
 								<a
 									href="javascript:;"
-									className="text-gray-800 hover:text-blue-500"
+									className="text-white hover:text-blue-500"
 								>
-									FAQs
+									Support
 								</a>
 							</li>
-							<li className="mb-6">
+							<li className="mb-2">
 								<a
 									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
+									className=" text-white hover:text-blue-500 font-bold"
 								>
-									Quick Start
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Documentation
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									User Guide
-								</a>
-							</li>
-							<li>
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Plugin Guide
+									Socials
 								</a>
 							</li>
 						</ul>
-					</div>
-					{/* <!--End Col--> */}
-					<div className="block">
-						<h4 className="text-xl text-blue-500 font-bold mb-7">Support</h4>
-						<ul className="text-lg  transition-all duration-500">
-							<li className="mb-6">
-								<a
-									href="javascript:;"
-									className="text-gray-800 hover:text-blue-500"
-								>
-									Customer Support
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Cookies
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									License
-								</a>
-							</li>
-							<li className="mb-6">
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Terms & Conditions
-								</a>
-							</li>
-							<li>
-								<a
-									href="javascript:;"
-									className=" text-gray-800 hover:text-blue-500"
-								>
-									Privacy Policy
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				{/* <!--Grid--> */}
-				<div className="py-7 border-t border-gray-700 ">
-					<div className="flex items-center justify-center flex-col lg:space-y-0 space-y-8 lg:justify-between lg:flex-row">
-						<a href="#" className="">
-							<h4 className="text-xl text-blue-700 font-extrabold">Prosperi</h4>
-						</a>
-						<span className="text-gray-800  block">
-							©<a href="#">Prosperi</a> 2024, All rights reserved.
-						</span>
-						<div className="flex mt-4 space-x-4 sm:justify-center sm:mt-0 ">
+						<div className="flex mt-2 space-x-2 sm:justify-start sm:mt-0">
 							<a
 								href="javascript:;"
-								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600"
+								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-300"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -211,7 +91,7 @@ function Header() {
 									<path
 										id="Vector"
 										d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z"
-										fill="blue"
+										fill="white"
 									/>
 								</svg>
 							</a>
@@ -220,7 +100,7 @@ function Header() {
 								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600"
 							>
 								<svg
-									className="w-[1.25rem] h-[1.125rem] text-blue-500"
+									className="w-[1.25rem] h-[1.125rem] text-white"
 									viewBox="0 0 15 15"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +116,7 @@ function Header() {
 								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600"
 							>
 								<svg
-									className="w-[1rem] h-[1rem] text-blue-500"
+									className="w-[1rem] h-[1rem] text-white"
 									viewBox="0 0 13 12"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +132,7 @@ function Header() {
 								className="w-9 h-9 rounded-full border border-gray-700 flex justify-center items-center hover:border-indigo-600"
 							>
 								<svg
-									className="w-[1.25rem] h-[0.875rem] text-blue-500"
+									className="w-[1.25rem] h-[0.875rem] text-white"
 									viewBox="0 0 16 12"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
@@ -266,6 +146,63 @@ function Header() {
 								</svg>
 							</a>
 						</div>
+					</div>
+					{/* <!--End Col--> */}
+					<div className="block">
+						<h4 className="text-xl text-white font-bold mb-2">Resource</h4>
+						<ul className="text-lg  transition-all duration-500">
+							<li className="mb-2">
+								<a
+									href="javascript:;"
+									className="text-white hover:text-blue-500"
+								>
+									Faq
+								</a>
+							</li>
+							<li className="mb-2">
+								<a
+									href="javascript:;"
+									className=" text-white hover:text-blue-500"
+								>
+									Cookies
+								</a>
+							</li>
+							<li className="mb-2">
+								<a
+									href="javascript:;"
+									className=" text-white hover:text-blue-500"
+								>
+									License
+								</a>
+							</li>
+							<li className="mb-2">
+								<a
+									href="javascript:;"
+									className=" text-white hover:text-blue-500"
+								>
+									Terms & Conditions
+								</a>
+							</li>
+							<li>
+								<a
+									href="javascript:;"
+									className=" text-white hover:text-blue-500"
+								>
+									Licences
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				{/* <!--Grid--> */}
+				<div className="py-3 border-t border-gray-900 ">
+					<div className="flex items-center justify-center flex-col lg:space-y-0 space-y-8 lg:justify-between lg:flex-row">
+						<a href="#" className="">
+							<h4 className="text-white">Privacy and policy</h4>
+						</a>
+						<span className="text-white  block">
+							Copyright ©<a href="#">Prosperi</a> 2024 | All Rights Reserved.
+						</span>
 					</div>
 				</div>
 			</div>
