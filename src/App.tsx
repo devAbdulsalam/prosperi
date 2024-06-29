@@ -342,7 +342,12 @@ const App = () => {
 				<img
 					src={waveImage}
 					alt="appstore"
-					className="object-cover object-center h-[70px] w-full absolute bottom-52 -z-10"
+					className="object-cover object-center h-[70px] w-full absolute bottom-52 -z-10 "
+				/>
+				<img
+					src={circleHalf}
+					alt="circlefull"
+					className="object-cover object-center absolute -top-0 right-10 w-[180px] h-[180px] -z-10 opacity-20"
 				/>
 				<div className="mx-auto container flex flex-col md:flex-row items-center justify-center">
 					<div className="flex flex-1 flex-col items-center justify-center relative">
