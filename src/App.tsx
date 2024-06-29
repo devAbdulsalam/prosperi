@@ -354,7 +354,7 @@ const App = () => {
 						<img
 							src={circlePink}
 							alt="icon Image"
-							className="object-cover object-center h-[70px] w-[70px] absolute -left-12 -bottom-6 -z-10"
+							className="object-cover object-center h-[70px] w-[70px] absolute md:-left-12 -bottom-6 -z-10"
 						/>
 						<motion.img
 							initial={{ opacity: 0, x: 50 }}
@@ -365,7 +365,7 @@ const App = () => {
 							}}
 							src={circleHalf}
 							alt="icon Image"
-							className="object-cover object-center h-[90px] w-[90px] absolute top-16 right-16 -z-10"
+							className="object-cover object-center h-[90px] w-[90px] absolute -top-4 md:top-16 right-16 -z-10"
 						/>
 						<img
 							src={circleBlue}
@@ -381,7 +381,7 @@ const App = () => {
 								y: 0,
 								transition: { delay: 0.4, duration: 0.5 },
 							}}
-							className="text-xl font-semibold mb-2"
+							className="text-xl font-semibold mb-2 mt-6 md:mt-0"
 						>
 							About us
 						</motion.h3>
