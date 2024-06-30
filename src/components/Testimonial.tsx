@@ -129,7 +129,7 @@ const TestimonialSlider = () => {
 					// onSwiper={(swiper) => console.log(swiper)}
 					loop={true}
 					centeredSlides={true}
-					speed={800}
+					speed={1400}
 					autoplay={{
 						delay: 3000,
 						disableOnInteraction: false,
