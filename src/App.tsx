@@ -327,7 +327,7 @@ const App = () => {
 								<p className="text-lg font-semibold">Tax management</p>
 							</motion.div>
 						</div>
-					</div>
+					</div> 
 					<div className="flex flex-col items-center justify-center p-10">
 						<motion.img
 							initial={{ opacity: 0, x: 50 }}
