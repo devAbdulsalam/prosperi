@@ -10,7 +10,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="flex flex-wrap items-center justify-between p-3 bg-[#0181F8] text-white fixed top-0 w-full z-50 px-4 md:px-20 mx-auto">
+		<nav className="flex flex-wrap items-center justify-between p-3 bg-[#0181F8] text-white fixed top-0 w-full z-50 px-4 md:px-20">
 			<div className="text-xl font-extrabold md:pl-3 flex items-center ">
 				<img
 					src={logo}

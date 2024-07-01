@@ -86,7 +86,7 @@ const testimonials = [
 const TestimonialSlider = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	return (
-		<section className="relative py-10 md:py-16 isolate">
+		<section className="relative py-10 md:py-16 isolate w-full">
 			<div
 				aria-hidden="true"
 				className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40"
