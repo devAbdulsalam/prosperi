@@ -99,7 +99,7 @@ const App = () => {
 										transition: { delay: 0.2, duration: 0.5 },
 									}}
 									viewport={{ once: false, amount: 0.5 }}
-									className='mb-10'
+									className="mb-10"
 								>
 									<ReactTyped
 										strings={[
@@ -107,8 +107,8 @@ const App = () => {
 											'Spend <br /> an get rewarded',
 											'with block-chain powered productivity',
 										]}
-										typeSpeed={40}
-										backSpeed={50}
+										typeSpeed={80}
+										backSpeed={60}
 										loop
 										className="text-grey-700 font-extrabold text-4xl md:text-5xl leading-10 mb-2"
 									/>
@@ -328,7 +328,7 @@ const App = () => {
 							</motion.div>
 						</div>
 					</div>
-					<div className="flex flex-col items-center justify-center">
+					<div className="flex flex-col items-center justify-center p-10">
 						<motion.img
 							initial={{ opacity: 0, x: 50 }}
 							whileInView={{
@@ -362,7 +362,7 @@ const App = () => {
 					className="object-cover object-center absolute -top-0 right-10 w-[180px] h-[180px] -z-10 opacity-20"
 				/>
 				<div className="mx-auto container flex flex-col md:flex-row items-center justify-center">
-					<div className="flex flex-1 flex-col items-center justify-center relative">
+					<div className="flex flex-1 flex-col items-center justify-center relative p-10">
 						<img
 							src={aboutImage}
 							alt="icon Image"
