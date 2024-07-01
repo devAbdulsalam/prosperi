@@ -7,7 +7,7 @@ function Footer() {
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
 				<div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
-					<div className="text-xl font-extrabold text-white md:pl-3 flex items-top">
+					<div className="text-lg font-extrabold text-white md:pl-3 flex items-top">
 						<img
 							src={logo}
 							alt="logo icon"
@@ -18,8 +18,8 @@ function Footer() {
 					</div>
 					{/* <!--End Col--> */}
 					<div className="block">
-						<h4 className="text-xl text-white font-bold mb-4">Company</h4>
-						<ul className="text-lg  transition-all duration-500">
+						<h4 className="text-lg text-white font-bold mb-4">Company</h4>
+						<ul className="text-sm  transition-all duration-500">
 							<li className="mb-2">
 								<a href="#" className="text-white hover:text-blue-500">
 									About Us
@@ -49,8 +49,8 @@ function Footer() {
 					</div>
 					{/* <!--End Col--> */}
 					<div className="block">
-						<h4 className="text-xl text-white font-bold mb-2">Need Help</h4>
-						<ul className="text-lg  transition-all duration-500">
+						<h4 className="text-lg text-white font-bold mb-2">Need Help</h4>
+						<ul className="text-sm  transition-all duration-500">
 							<li className="mb-3">
 								<a href="#" className="text-white hover:text-blue-500">
 									Support
@@ -138,8 +138,8 @@ function Footer() {
 					</div>
 					{/* <!--End Col--> */}
 					<div className="block">
-						<h4 className="text-xl text-white font-bold mb-2">Resource</h4>
-						<ul className="text-lg  transition-all duration-500">
+						<h4 className="text-lg text-white font-bold mb-2">Resource</h4>
+						<ul className="text-sm  transition-all duration-500">
 							<li className="mb-2">
 								<a href="#" className="text-white hover:text-blue-500">
 									Faq

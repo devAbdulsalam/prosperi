@@ -24,6 +24,7 @@ import { motion } from 'framer-motion';
 import Navbar from './components/NavBar';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
+import { ReactTyped } from 'react-typed';
 
 const App = () => {
 	return (
@@ -90,7 +91,7 @@ const App = () => {
 						</div>
 						<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between z-10">
 							<div className="md:w-1/2 mb-4 md:mb-0">
-								<motion.h1
+								<motion.div
 									initial={{ opacity: 0, y: 50 }}
 									whileInView={{
 										opacity: 1,
@@ -98,11 +99,22 @@ const App = () => {
 										transition: { delay: 0.2, duration: 0.5 },
 									}}
 									viewport={{ once: false, amount: 0.5 }}
-									className="text-grey-700 font-extrabold text-4xl md:text-5xl leading-10 mb-2"
+									className='mb-10'
 								>
-									Empower <br /> your finance
-								</motion.h1>
-								<motion.p
+									<ReactTyped
+										strings={[
+											'Empower <br /> your finance',
+											'Spend <br /> an get rewarded',
+											'with block-chain powered productivity',
+										]}
+										typeSpeed={40}
+										backSpeed={50}
+										loop
+										className="text-grey-700 font-extrabold text-4xl md:text-5xl leading-10 mb-2"
+									/>
+								</motion.div>
+
+								{/* <motion.p
 									initial={{ opacity: 0, y: 50 }}
 									whileInView={{
 										opacity: 1,
@@ -113,7 +125,7 @@ const App = () => {
 									className="font-regular  md:text-xl mb-8 mt-4  leading-loose md:font-semibold"
 								>
 									with block-chain powered productivity
-								</motion.p>
+								</motion.p> */}
 								<img
 									src={ikImage}
 									alt="appstore"
