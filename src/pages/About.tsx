@@ -5,8 +5,8 @@ import reward from './assets/reward.png';
 import dashboard from './assets/dashboard.png';
 import dashboard2 from './assets/dashboard2.png';
 import inclusion from './assets/inclusion.png';
-import Footer from './components/Footer';
-import Navbar from './components/NavBar';
+import Footer from '../components/Footer';
+import Navbar from '../components/NavBar';
 
 const App = () => {
 	return (

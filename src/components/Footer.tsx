@@ -1,9 +1,10 @@
 // import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './../assets/logo.png';
 
 function Footer() {
 	return (
-		<footer className="w-full bg-[#1E1E1E]" id="contactUs">
+		<footer className="w-full bg-[#010217]" id="contactUs">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
 				<div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
@@ -141,23 +142,19 @@ function Footer() {
 						<h4 className="text-lg text-white font-bold mb-2">Resource</h4>
 						<ul className="text-sm  transition-all duration-500">
 							<li className="mb-2">
-								<a href="#" className="text-white hover:text-blue-500">
+								<Link to="/faq" className="text-white hover:text-blue-500">
 									Faq
-								</a>
+								</Link>
 							</li>
 							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
+								<Link to="/user-guide" className="text-white hover:text-blue-500">
 									User Guide
-								</a>
-							</li>
-							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
-									Cookies
-								</a>
+								</Link>
+								<a href="" className=" text-white hover:text-blue-500"></a>
 							</li>
 							<li>
-								<a href="#" className=" text-white hover:text-blue-500">
-									Licences
+								<a href="/license" className=" text-white hover:text-blue-500">
+									License
 								</a>
 							</li>
 						</ul>

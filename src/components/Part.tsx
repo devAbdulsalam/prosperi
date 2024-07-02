@@ -29,6 +29,10 @@ const App = () => {
 
 	const options = useMemo(
 		() => ({
+			fullScreen: {
+				enable: true,
+				zIndex: -1,
+			},
 			background: {
 				color: {
 					value: 'white',

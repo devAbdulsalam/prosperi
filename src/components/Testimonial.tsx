@@ -21,7 +21,7 @@ const testimonials = [
 		id: 1,
 		text: 'Prosperi has transformed the way I manage my finances. The expense tracking and budgeting tools are intuitive and easy to use. I feel more in control of my money than ever before!',
 		name: 'Jane D.',
-		title: 'Freelance Designer',
+		title: 'Freelancer',
 		image: 'https://randomuser.me/api/portraits/women/1.jpg',
 		color: 'bg-[#007BFF]',
 	},
@@ -69,7 +69,7 @@ const testimonials = [
 		id: 7,
 		text: 'Bill payment reminders have saved me from missing due dates. Prosperi ensures I stay on top of my payments, reducing stress and late fees. It’s a must-have app!',
 		name: 'Natalie M.',
-		title: 'Personal Trainer',
+		title: 'Small Business Owner',
 		image: 'https://randomuser.me/api/portraits/women/7.jpg',
 		color: 'bg-[#007BFF]',
 	},
@@ -102,7 +102,9 @@ const TestimonialSlider = () => {
 				<div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 "></div>
 			</div>
 			<div className="text-center w-full mb-5">
-				<h3 className="text-xl font-semibold mb-2">WHAT THEY SAY</h3>
+				<h3 className="text-xl font-semibold mb-2 text-[#007BFF]">
+					WHAT THEY SAY
+				</h3>
 				<motion.h2
 					initial={{ opacity: 0, y: 50 }}
 					whileInView={{
@@ -111,11 +113,11 @@ const TestimonialSlider = () => {
 						transition: { delay: 0.4, duration: 0.5 },
 					}}
 					viewport={{ once: false, amount: 0.5 }}
-					className="text-3xl font-bold mb-2 text-[#007BFF]"
+					className="text-3xl font-bold mb-2 text-white"
 				>
 					Testimonials
 				</motion.h2>
-				<h3 className="text-lg font-semibold mb-6">
+				<h3 className="text-lg font-semibold mb-6 text-[#A2C4FE]">
 					Here are some kind words from our clients after <br /> using our
 					services
 				</h3>
@@ -158,8 +160,8 @@ const TestimonialSlider = () => {
 									<div
 										className={`bg-gradient-to-r shadow rounded-lg p-8 ${
 											currentIndex === index
-												? 'from-[#036CDC] to-[#036CDC] h-82'
-												: 'from-[#007BFF] to-[#53A6FF] h-52'
+												? 'from-[#252B4F] to-[#252B4F] h-82'
+												: ' bg-[#252B4F] h-52'
 										} duration-500 ease-in-out self-end`}
 									>
 										<p className="text-white mb-4">{item.text}</p>
@@ -196,7 +198,7 @@ const TestimonialSlider = () => {
 														onClick={() => setCurrentIndex(index)}
 														className={`h-2 w-2 rounded-full ${
 															currentIndex === index
-																? 'bg-green-500'
+																? 'bg-[#0125A6]'
 																: 'bg-white'
 														}`}
 													></button>
