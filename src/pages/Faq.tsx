@@ -10,13 +10,7 @@ const Index = () => {
 			<Navbar />
 			<Part />
 			<Faq />
-			{/* <div>
-				<div>
-					Frequently asked questions Can’t find the answer you’re looking for?
-					Reach out to our customer support team.
-				</div>
-				<div></div>
-			</div> */}
+			
 			<ArrowUp />
 			<Footer />
 		</div>

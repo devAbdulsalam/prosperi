@@ -12,7 +12,10 @@ import BouncingImage from '../BounceImage';
 import circleHalf from './../assets/circleHalf.png';
 const Header = () => {
 	return (
-		<header id="home" className="bg-[#06002B] text-white pt-20 relative w-full">
+		<header
+			id="home"
+			className="bg-[#06002B] text-white pt-20 relative w-full"
+		>
 			<div className="absolute top-0 left-0 w-full h-full z-10 ">
 				<img
 					src={layer2}
@@ -87,9 +90,9 @@ const Header = () => {
 							>
 								<ReactTyped
 									strings={[
-										'Empower <br /> your finance',
+										'Unlock Exclusive Rewards with Prosperie',
 										'Spend <br /> an get rewarded',
-										'with block-chain powered productivity',
+										'Enjoy our <br /> unique loyalty and rewards program',
 									]}
 									typeSpeed={80}
 									backSpeed={60}
@@ -165,7 +168,7 @@ const Header = () => {
 					<img
 						src={robotHand}
 						alt="appstore"
-						className="object-cover object-center absolute -bottom-32 -right-12 w-[200px] h-[200px] -z-10"
+						className="object-cover object-center absolute -bottom-32 -right-12 w-[200px] h-[200px] -z-10 md:hidden"
 					/>
 					<div className="z-10 hidden md:block">
 						<img

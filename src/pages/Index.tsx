@@ -1,4 +1,3 @@
-
 import Navbar from '../components/NavBar';
 import Header from '../components/Header';
 import Part from '../components/Part';
@@ -18,9 +17,9 @@ const App = () => {
 			<Header />
 			<Download />
 			<Why />
-			<AboutUs/>
+			<AboutUs />
 			<Testimonial />
-			<Cta/>
+			<Cta />
 			<ArrowUp />
 			<Footer />
 		</div>

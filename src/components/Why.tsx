@@ -16,13 +16,13 @@ function Why() {
 				<div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#7274e6] to-[#5856e2] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem] clipPath"></div>
 			</div>
 			<div className="mx-auto container flex  md:flex-row items-center justify-center flex-col-reverse text-white">
-				<div className="p-10">
+				<div className="p-10 flex-1">
 					<h3 className="text-xl font-semibold mb-2">WHY PROSPERI?</h3>
-					<h2 className="text-2xl md:text-3xl font-bold mb-8">
-						Prosperi is ideal for boosting customer productivity with enhanced
-						security
-					</h2>
-					<div className="flex flex-col items-start justify-start gap-2">
+					<p className="text-2xl md:text-3xl font-bold mb-8">
+						At Prosperi, we believe in rewarding our users for their loyalty and
+						engagement.
+					</p>
+					<div className="flex flex-col items-start justify-start gap-3">
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
 							whileInView={{
@@ -37,26 +37,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-10 w-10"
 							/>
-							<p className="text-lg font-semibold">
-								Tokenized rewards and Incentives
-							</p>
-						</motion.div>
-
-						<motion.div
-							initial={{ opacity: 0, x: -50 }}
-							whileInView={{
-								opacity: 1,
-								x: 0,
-								transition: { delay: 0.5, duration: 0.5 },
-							}}
-							className="flex items-center justify-start gap-2"
-						>
-							<img
-								src={billIcon}
-								alt="icon Image"
-								className="object-cover object-center h-10 w-10"
-							/>
-							<p className="text-lg font-semibold">Bill payment reminders</p>
+							<p className="text-lg font-semibold">Referral Program</p>
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
@@ -72,9 +53,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-10 w-10"
 							/>
-							<p className="text-lg font-semibold">
-								Expense and budget tracking
-							</p>
+							<p className="text-lg font-semibold">Milestone Rewards</p>
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
@@ -108,9 +87,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-10 w-10"
 							/>
-							<p className="text-lg font-semibold">
-								Saving planner, invoicing and payment
-							</p>
+							<p className="text-lg font-semibold">Cashback Offers</p>
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
@@ -126,11 +103,11 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-10 w-10"
 							/>
-							<p className="text-lg font-semibold">Tax management</p>
+							<p className="text-lg font-semibold">Gamified Challenges: </p>
 						</motion.div>
 					</div>
 				</div>
-				<div className="flex flex-col items-center justify-center">
+				<div className="flex-1 flex flex-col items-center justify-center">
 					<motion.img
 						initial={{ opacity: 0, x: 50 }}
 						whileInView={{

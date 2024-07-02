@@ -30,7 +30,7 @@ const App = () => {
 	const options = useMemo(
 		() => ({
 			fullScreen: {
-				enable: true,
+				// enable: true,
 				zIndex: -1,
 			},
 			background: {

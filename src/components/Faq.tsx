@@ -77,11 +77,32 @@ const Index = () => {
 	return (
 		<div className="py-16">
 			<div className="max-w-2xl mx-auto p-8 rounded-lg shadow">
-			{/* <div className="max-w-2xl mx-auto bg-[#252B4F] p-8 rounded-lg shadow"> */}
+				{/* <div className="max-w-2xl mx-auto bg-[#252B4F] p-8 rounded-lg shadow"> */}
 				<div className="text-2xl font-semibold text-white mb-4">FAQ</div>
 				{faqData.map((item, index) => (
 					<FAQItem key={index} question={item.question} answer={item.answer} />
 				))}
+			</div>
+			<div className="container mx-auto flex ">
+				<div className="text-white">
+					<h2 className="text-3xl font-semibold  mb-4">
+						Frequently asked questions
+					</h2>
+					<h3 className="text-2xl font-semibold mb-4">
+						Can’t find the answer you’re looking for? Reach out to our customer
+						support team.
+					</h3>
+				</div>
+				<div>
+					{faqData.map((item, index) => (
+						<div key={index}>
+							<h3 className="text-lg font-medium text-[#A2C4FE]">
+								{item.question}
+							</h3>
+							<p className="mt-2 text-white">{item.answer}</p>
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);
