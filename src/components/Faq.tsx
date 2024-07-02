@@ -1,44 +1,44 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
-const FAQItem = ({
-	question,
-	answer,
-}: {
-	question: string;
-	answer: string;
-}) => {
-	const [isOpen, setIsOpen] = useState(false);
+// const FAQItem = ({
+// 	question,
+// 	answer,
+// }: {
+// 	question: string;
+// 	answer: string;
+// }) => {
+// 	const [isOpen, setIsOpen] = useState(false);
 
-	return (
-		<div className="border-b border-gray-50 py-4">
-			<button
-				className="w-full text-left focus:outline-none"
-				onClick={() => setIsOpen(!isOpen)}
-			>
-				<div className="flex justify-between items-center">
-					<span className="text-lg font-medium text-[#A2C4FE]">{question}</span>
-					<svg
-						className={`w-6 h-6 transform transition-transform duration-300 text-white ${
-							isOpen ? 'rotate-180' : ''
-						}`}
-						fill="none"
-						stroke="currentColor"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth="2"
-							d="M19 9l-7 7-7-7"
-						></path>
-					</svg>
-				</div>
-			</button>
-			{isOpen && <div className="mt-2 text-white">{answer}</div>}
-		</div>
-	);
-};
+// 	return (
+// 		<div className="border-b border-gray-50 py-4">
+// 			<button
+// 				className="w-full text-left focus:outline-none"
+// 				onClick={() => setIsOpen(!isOpen)}
+// 			>
+// 				<div className="flex justify-between items-center">
+// 					<span className="text-lg font-medium text-[#A2C4FE]">{question}</span>
+// 					<svg
+// 						className={`w-6 h-6 transform transition-transform duration-300 text-white ${
+// 							isOpen ? 'rotate-180' : ''
+// 						}`}
+// 						fill="none"
+// 						stroke="currentColor"
+// 						viewBox="0 0 24 24"
+// 						xmlns="http://www.w3.org/2000/svg"
+// 					>
+// 						<path
+// 							strokeLinecap="round"
+// 							strokeLinejoin="round"
+// 							strokeWidth="2"
+// 							d="M19 9l-7 7-7-7"
+// 						></path>
+// 					</svg>
+// 				</div>
+// 			</button>
+// 			{isOpen && <div className="mt-2 text-white">{answer}</div>}
+// 		</div>
+// 	);
+// };
 
 const Index = () => {
 	const faqData = [
