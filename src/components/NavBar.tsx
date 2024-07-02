@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { RiCloseLargeLine } from 'react-icons/ri';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import logo from './../assets/logo.png';
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
 			// changecolor if scrolled more than nav hieght
 			// Get the height of the navbar
 			// const navHeight = document.getElementById('nav').offsetHeight;
-			const navHeight = navRef.current ? navRef.current.offsetHeight : 0;
+			const navHeight = navRef.current ? navRef.current?.offsetHeight : 0;
 
 			if (window.scrollY > navHeight) {
 				setChangeColor(true);
