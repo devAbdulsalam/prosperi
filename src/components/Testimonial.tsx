@@ -45,7 +45,7 @@ const testimonials = [
 		id: 4,
 		text: 'The Celo blockchain integration gives me peace of mind knowing my funds are secure. The wallet setup was straightforward, and I appreciate the enhanced security features.',
 		name: 'David L.',
-		title: 'Software Developer',
+		title: 'Entrepreneur',
 		image: 'https://randomuser.me/api/portraits/men/4.jpg',
 		color: 'bg-[#007BFF]',
 	},

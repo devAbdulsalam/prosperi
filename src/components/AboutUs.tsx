@@ -83,7 +83,7 @@ function AboutUs() {
 						managing your finances, and increasing productivity. It is
 						integrated with the Celo blockchain.
 					</motion.p>
-					<motion.p
+					{/* <motion.p
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
 							opacity: 1,
@@ -97,7 +97,7 @@ function AboutUs() {
 						approachable. Our extensive toolkit is available to assist you in
 						managing your finances, whether you're organizing your finances,
 						keeping track of your investments, or setting up your wallet.
-					</motion.p>
+					</motion.p> */}
 				</div>
 			</div>
 		</section>
