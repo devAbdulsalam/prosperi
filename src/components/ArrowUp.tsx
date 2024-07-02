@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { AiOutlineArrowUp } from 'react-icons/ai';
 
 function ArrowUp() {
 	const [showButton, setShowButton] = useState(false);
 
 	useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition =  window.innerHeight / 2
-			if (window.scrollY >  scrollPosition) {
+		const handleScroll = () => {
+			const scrollPosition = window.innerHeight / 2;
+			if (window.scrollY > scrollPosition) {
 				setShowButton(true);
 			} else {
 				setShowButton(false);

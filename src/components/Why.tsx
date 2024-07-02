@@ -3,7 +3,7 @@ import walletIcon from './../assets/walletIcon.png';
 import expenseIcon from './../assets/expenseIcon.png';
 import savingsIcon from './../assets/savingsIcon.png';
 import taxIcon from './../assets/taxIcon.png';
-import billIcon from './../assets/billIcon.png';
+// import billIcon from './../assets/billIcon.png';
 import whyImage from './../assets/whyImage2.png';
 import { motion } from 'framer-motion';
 function Why() {
