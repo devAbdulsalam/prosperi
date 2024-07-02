@@ -11,8 +11,8 @@ const Navbar = () => {
 		const handleScroll = () => {
 			// changecolor if scrolled more than nav hieght
 			// Get the height of the navbar
-			// const navHeight = document.getElementById('nav').offsetHeight;
-			const navHeight = navRef.current ? navRef.current?.offsetHeight : 0;
+			const navHeight = document.getElementById('nav').offsetHeight;
+			// const navHeight = navRef.current ? navRef.current?.offsetHeight : 0;
 
 			if (window.scrollY > navHeight) {
 				setChangeColor(true);
