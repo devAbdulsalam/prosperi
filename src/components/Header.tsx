@@ -112,7 +112,7 @@ const Header = () => {
 							>
 								With blockchain productivity
 							</motion.h3>
-							<div className="w-full md:flex mt-6 md:mt-10 gap-3  md:space-y-0 justify-center items-center">
+							<div className="w-full md:flex mt-6 md:mt-10 gap-3  space-y-3 md:space-y-0 justify-center items-center">
 								<button className="px-4 md:px-10 py-2 md:py-3 font-semibold bg-white rounded-md border-2 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
 									Get Started
 								</button>

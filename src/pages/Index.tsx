@@ -20,9 +20,9 @@ const App = () => {
 			<AboutUs />
 			<Testimonial />
 			<Cta />
-			<div className="w-full relative">
-				<ArrowUp />
-			</div>
+			{/* <div className="w-full relative"> */}
+			<ArrowUp />
+			{/* </div> */}
 			<Footer />
 		</div>
 	);

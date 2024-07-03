@@ -7,7 +7,7 @@ function Footer() {
 		<footer className="w-full bg-[#010217]" id="contactUs">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
-				<div className="grid sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
+				<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
 					<div className="text-lg font-extrabold text-white md:pl-3 flex items-top">
 						<img
 							src={logo}
@@ -27,17 +27,26 @@ function Footer() {
 								</Link>
 							</li>
 							<li className="mb-2">
-								<Link to="/ambassadors" className=" text-white hover:text-blue-500">
+								<Link
+									to="/ambassadors"
+									className=" text-white hover:text-blue-500"
+								>
 									Ambassadors
 								</Link>
 							</li>
 							<li className="mb-2">
-								<Link to="/privacy-policy" className=" text-white hover:text-blue-500">
+								<Link
+									to="/privacy-policy"
+									className=" text-white hover:text-blue-500"
+								>
 									Privacy policy
 								</Link>
 							</li>
 							<li className="mb-2">
-								<Link to="/term-of-use" className=" text-white hover:text-blue-500">
+								<Link
+									to="/term-of-use"
+									className=" text-white hover:text-blue-500"
+								>
 									Terms of use
 								</Link>
 							</li>
@@ -147,7 +156,10 @@ function Footer() {
 								</Link>
 							</li>
 							<li className="mb-2">
-								<Link to="/user-guide" className="text-white hover:text-blue-500">
+								<Link
+									to="/user-guide"
+									className="text-white hover:text-blue-500"
+								>
 									User Guide
 								</Link>
 								<a href="" className=" text-white hover:text-blue-500"></a>
@@ -161,13 +173,13 @@ function Footer() {
 					</div>
 				</div>
 				{/* <!--Grid--> */}
-				<div className="py-3 border-t border-gray-900 ">
-					<div className="flex items-center justify-center flex-col lg:space-y-0 space-y-8 lg:justify-between lg:flex-row">
+				<div className="py-4 border-t border-gray-900 ">
+					<div className="flex items-center justify-center sm:justify-between flex-col md:flex-row space-y-3 md:space-y-0">
 						<a href="#" className="">
 							<h4 className="text-white">Privacy Policy</h4>
 						</a>
-						<span className="text-white  block">
-							Copyright ©<a href="#">Prosperi</a> 2024 | All Rights Reserved.
+						<span className="text-white  block text-center md:text-left">
+							Copyright © <a href="#">Prosperi</a> 2024 | All Rights Reserved.
 						</span>
 					</div>
 				</div>
