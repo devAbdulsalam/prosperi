@@ -14,7 +14,7 @@ const Header = () => {
 	return (
 		<header
 			id="home"
-			className="bg-[#06002B] text-white pt-20 relative w-full"
+			className="bg-[#06002B] text-white pt-20 relative w-full overflow-hidden"
 		>
 			<div className="absolute top-0 left-0 w-full h-full z-10 ">
 				<img
@@ -112,7 +112,7 @@ const Header = () => {
 							>
 								With blockchain productivity
 							</motion.h3>
-							<div className="w-full flex mt-6 md:mt-10 gap-3  md:space-y-0 justify-center  items-center">
+							<div className="w-full md:flex mt-6 md:mt-10 gap-3  md:space-y-0 justify-center items-center">
 								<button className="px-4 md:px-10 py-2 md:py-3 font-semibold bg-white rounded-md border-2 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
 									Get Started
 								</button>
@@ -165,11 +165,11 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
 					</div>
-					<img
+					{/* <img
 						src={robotHand}
 						alt="appstore"
 						className="object-cover object-center absolute -bottom-32 -right-12 w-[200px] h-[200px] -z-10 md:hidden"
-					/>
+					/> */}
 					<div className="z-10 hidden md:block">
 						<img
 							src={ikImage}

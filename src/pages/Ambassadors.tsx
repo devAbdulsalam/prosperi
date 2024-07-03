@@ -4,14 +4,16 @@ import Part from '../components/Part';
 import Footer from '../components/Footer';
 import ArrowUp from '../components/ArrowUp';
 
-const Index = () => {
+function Index() {
 	return (
 		<div className="bg-[#06002B] min-h-screen w-full relative">
 			<Navbar />
 			<Part />
-			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-8">
+			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
 				<div className="flex-1 text-white">
-					<h2 className="text-3xl font-semibold  mb-4">Career</h2>
+					<h2 className="text-3xl font-semibold mb-4 capitalize">
+						Ambassadors
+					</h2>
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -21,7 +23,7 @@ const Index = () => {
 						}}
 						className="text-2xl font-semibold mb-4 text-[#007BFF]"
 					>
-						Join Our
+						Join the Prosperi Ambassador Program
 					</motion.h3>
 				</div>
 				<div className="flex-1">
@@ -35,21 +37,20 @@ const Index = () => {
 							}}
 							className="mt-2 text-white text-lg"
 						>
-							Are you passionate about fintech and blockchain technology?
-							Prosperi is looking for talented individuals to join our growing
-							team. We offer a dynamic work environment, opportunities for
-							growth, and the chance to make a real impact. Check out our
-							current job openings and apply to become part of the Prosperi
-							family.
+							Become a Prosperi ambassador and help spread the word about our
+							innovative financial management platform. As an ambassador, you'll
+							gain early access to new features, exclusive rewards, and the
+							opportunity to shape the future of Prosperi. Share your unique
+							referral code, host events, and engage with our community to earn
+							special incentives.
 						</motion.p>
 					</div>
 				</div>
 			</div>
-
 			<ArrowUp />
 			<Footer />
 		</div>
 	);
-};
+}
 
 export default Index;

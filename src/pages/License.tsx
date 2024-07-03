@@ -11,10 +11,10 @@ const Index = () => {
 			<div className="py-10 text-white">
 				<div className="py-10 container mx-auto">
 					<h2 className="text-3xl font-semibold text-white mb-4">Licence</h2>
-					<h3 className="text-2xl font-semibold text-white mb-4">
-						Proprietary Software License
-					</h3>
-					<p>
+					<p className="text-white mb-4">
+						<span className="text-2xl font-semibold">
+							Proprietary Software License:
+						</span>
 						Prosperi is licensed under a proprietary software license. Users can
 						download and use the app, but the source code and intellectual
 						property rights are retained by Prosperi

@@ -7,7 +7,7 @@ function Footer() {
 		<footer className="w-full bg-[#010217]" id="contactUs">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
-				<div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
+				<div className="grid sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
 					<div className="text-lg font-extrabold text-white md:pl-3 flex items-top">
 						<img
 							src={logo}
@@ -22,29 +22,29 @@ function Footer() {
 						<h4 className="text-lg text-white font-bold mb-4">Company</h4>
 						<ul className="text-sm  transition-all duration-500">
 							<li className="mb-2">
-								<a href="#" className="text-white hover:text-blue-500">
+								<Link to="/about" className="text-white hover:text-blue-500">
 									About Us
-								</a>
+								</Link>
 							</li>
 							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
+								<Link to="/ambassadors" className=" text-white hover:text-blue-500">
 									Ambassadors
-								</a>
+								</Link>
 							</li>
 							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
+								<Link to="/privacy-policy" className=" text-white hover:text-blue-500">
 									Privacy policy
-								</a>
+								</Link>
 							</li>
 							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
+								<Link to="/term-of-use" className=" text-white hover:text-blue-500">
 									Terms of use
-								</a>
+								</Link>
 							</li>
 							<li className="mb-2">
-								<a href="#" className=" text-white hover:text-blue-500">
+								<Link to="/blog" className=" text-white hover:text-blue-500">
 									Blog
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>

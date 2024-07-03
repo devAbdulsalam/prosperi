@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 // import { useState } from 'react';
 
 // const FAQItem = ({
@@ -93,10 +94,18 @@ const Index = () => {
 					<h2 className="text-3xl font-semibold  mb-4">
 						Frequently asked questions
 					</h2>
-					<h3 className="text-2xl font-semibold mb-4 text-[#007BFF]">
+					<motion.h3
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.4, duration: 0.5 },
+						}}
+						className="text-2xl font-semibold mb-4 text-[#007BFF]"
+					>
 						Can’t find the answer you’re looking for? Reach out to our customer
 						support team.
-					</h3>
+					</motion.h3>
 				</div>
 				<div className="flex-1">
 					{faqData.map((item, index) => (
@@ -104,7 +113,13 @@ const Index = () => {
 							<h3 className="text-lg font-medium text-[#A2C4FE]">
 								{item.question}
 							</h3>
-							<p className="mt-2 text-white text-lg">{item.answer}</p>
+							<motion.p
+						initial={{ opacity: 0, y: 50 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { delay: 0.4, duration: 0.5 },
+						}} className="mt-2 text-white text-lg">{item.answer}</motion.p>
 						</div>
 					))}
 				</div>

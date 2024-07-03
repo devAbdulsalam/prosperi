@@ -11,16 +11,17 @@ import ArrowUp from '../components/ArrowUp';
 
 const App = () => {
 	return (
-		<div className="bg-[#06002B] min-h-screen w-full relative">
+		<div className="bg-[#06002B] min-h-screen w-full relative overflow-hidden">
 			<Navbar />
 			<Part />
 			<Header />
-			<Download />
-			<Why />
+			<Download />/{/* <Why /> */}
 			<AboutUs />
 			<Testimonial />
 			<Cta />
-			<ArrowUp />
+			<div className="w-full relative">
+				<ArrowUp />
+			</div>
 			<Footer />
 		</div>
 	);

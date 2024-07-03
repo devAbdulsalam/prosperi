@@ -37,7 +37,7 @@ const Navbar = () => {
 			ref={navRef}
 			className={`${
 				menuOpen || changeColor ? 'bg-[#06002B]' : 'bg-transparent'
-			} text-white fixed top-0 right-0 w-[100%] z-50 transition-all duration-300 ease-linear`}
+			} text-white w-full z-50 transition-all duration-300 ease-linear`}
 		>
 			<div className="w-full px-4 md:px-20 flex flex-wrap items-center justify-between p-3">
 				<div className="text-xl font-extrabold md:pl-3 flex items-center ">

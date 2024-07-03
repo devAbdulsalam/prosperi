@@ -10,12 +10,12 @@ function Download() {
 			className="py-16 w-full md:pt-32 relative md:px-8 lg:px-16"
 		>
 			<div className="mx-auto container flex flex-col md:flex-row items-center justify-center rounded-md bg-[#0125A6] relative">
-				<div className="flex flex-col  text-white p-10">
-					<h2 className="text-3xl font-bold">
+				<div className="flex flex-col  text-white p-4 md:p-10">
+					<h2 className="text-xl md:text-3xl font-bold">
 						Get Rewards <br className="hidden md:block" />
 						From your Daily Sign In
 					</h2>
-					<h3 className="text-lg font-medium mt-3">
+					<h3 className="md:text-lg font-medium mt-3">
 						Earn in prosperi coin when you sign in daily, this could be used{' '}
 						<br className="hidden md:block" />
 						to purchase goods on the App. <br className="hidden md:block" />{' '}

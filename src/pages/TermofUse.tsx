@@ -11,7 +11,7 @@ function Index() {
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
 				<div className="flex-1 text-white">
-					<h2 className="text-3xl font-semibold  mb-4">COMPANY</h2>
+					<h2 className="text-3xl font-semibold  mb-4">Term of use</h2>
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -26,9 +26,6 @@ function Index() {
 				</div>
 				<div className="flex-1">
 					<div className="py-4">
-						<h3 className="text-lg font-medium text-[#A2C4FE] my-4">
-							About Us
-						</h3>
 						<motion.p
 							initial={{ opacity: 0, y: 50 }}
 							whileInView={{

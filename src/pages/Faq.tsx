@@ -9,8 +9,7 @@ const Index = () => {
 		<div className="bg-[#06002B] min-h-screen w-full relative">
 			<Navbar />
 			<Part />
-			<Faq />
-			
+			<Faq />			
 			<ArrowUp />
 			<Footer />
 		</div>

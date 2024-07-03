@@ -158,7 +158,7 @@ const TestimonialSlider = () => {
 							<SwiperSlide key={index}>
 								<div className="h-82 flex w-full">
 									<div
-										className={`bg-gradient-to-r shadow rounded-lg p-8 ${
+										className={`bg-gradient-to-r shadow rounded-lg p-2 md:p-8 ${
 											currentIndex === index
 												? 'from-[#252B4F] to-[#252B4F] h-82'
 												: ' bg-[#252B4F] h-52'

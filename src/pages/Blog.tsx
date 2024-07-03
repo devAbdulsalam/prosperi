@@ -4,14 +4,14 @@ import Part from '../components/Part';
 import Footer from '../components/Footer';
 import ArrowUp from '../components/ArrowUp';
 
-const Index = () => {
+function Index() {
 	return (
 		<div className="bg-[#06002B] min-h-screen w-full relative">
 			<Navbar />
 			<Part />
-			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-8">
+			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
 				<div className="flex-1 text-white">
-					<h2 className="text-3xl font-semibold  mb-4">Career</h2>
+					<h2 className="text-3xl font-semibold  mb-4">Blog</h2>
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -21,11 +21,14 @@ const Index = () => {
 						}}
 						className="text-2xl font-semibold mb-4 text-[#007BFF]"
 					>
-						Join Our
+						Insights and Updates
 					</motion.h3>
 				</div>
 				<div className="flex-1">
 					<div className="py-4">
+						<h2 className="text-2xl font-semibold text-white mb-4">
+							Stay updated
+						</h2>
 						<motion.p
 							initial={{ opacity: 0, y: 50 }}
 							whileInView={{
@@ -35,21 +38,19 @@ const Index = () => {
 							}}
 							className="mt-2 text-white text-lg"
 						>
-							Are you passionate about fintech and blockchain technology?
-							Prosperi is looking for talented individuals to join our growing
-							team. We offer a dynamic work environment, opportunities for
-							growth, and the chance to make a real impact. Check out our
-							current job openings and apply to become part of the Prosperi
-							family.
+							Stay informed with the latest news, insights, and updates from
+							Prosperi. Our blog covers a range of topics, including financial
+							management tips, blockchain technology, user success stories, and
+							company announcements. Subscribe to our newsletter to never miss
+							an update.
 						</motion.p>
 					</div>
 				</div>
 			</div>
-
 			<ArrowUp />
 			<Footer />
 		</div>
 	);
-};
+}
 
 export default Index;
