@@ -116,7 +116,7 @@ const Header = () => {
 								<button className="px-4 md:px-10 py-2 md:py-3 font-semibold bg-white rounded-md border-2 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
 									Get Started
 								</button>
-								<button className="md:ml-4 text-white font-semibold rounded-md border-2 border-white px-4 md:px-10 py-2 md:py-3   hover:border-[#06002B] hover:bg-[#06002B] shadow-sm shadow-[#53A6FF] md:shadow-[#06002B] transition-all duration-150 ease-in-out">
+								<button className="ml-2 md:ml-4 text-white font-semibold rounded-md border-2 border-white px-4 md:px-10 py-2 md:py-3   hover:border-[#06002B] hover:bg-[#06002B] shadow-sm shadow-[#53A6FF] md:shadow-[#06002B] transition-all duration-150 ease-in-out">
 									Read Our Docs
 								</button>
 							</div>
@@ -165,11 +165,11 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
 					</div>
-					{/* <img
+					<img
 						src={robotHand}
 						alt="appstore"
 						className="object-cover object-center absolute -bottom-32 -right-12 w-[200px] h-[200px] -z-10 md:hidden"
-					/> */}
+					/>
 					<div className="z-10 hidden md:block">
 						<img
 							src={ikImage}

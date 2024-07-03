@@ -54,7 +54,7 @@ function AboutUs() {
 						className="object-cover object-center h-[90px] w-[90px] absolute -top-10 -left-12 -z-10"
 					/>
 				</div>
-				<div className="flex-1 p-10 text-white">
+				<div className="flex-1 p-4 md:p-10 text-white">
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -66,7 +66,7 @@ function AboutUs() {
 					>
 						About us
 					</motion.h3>
-					<h2 className="text-3xl font-bold mb-4">Prosperi Ecosystem</h2>
+					<h2 className="text-xl md:text-3xl font-bold mb-4">Prosperi Ecosystem</h2>
 					<motion.p
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
