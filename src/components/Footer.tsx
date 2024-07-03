@@ -7,7 +7,7 @@ function Footer() {
 		<footer className="w-full bg-[#010217]" id="contactUs">
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
-				<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-12 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
+				<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-4 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
 					<div className="text-lg font-extrabold text-white md:pl-3 flex items-top">
 						<img
 							src={logo}

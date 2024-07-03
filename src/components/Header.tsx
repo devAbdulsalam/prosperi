@@ -30,7 +30,7 @@ const Header = () => {
 					className="object-cover object-center w-full h-full"
 				/>
 			</div>
-			<div className="container mx-auto">
+			<div className="p-4 md:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
 					<div className="absolute right-40 top-20  h-full hidden md:block z-10">
 						<img
@@ -124,7 +124,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-full container mx-auto  md:mt-4 relative z-20">
+			<div className="w-full container mx-auto  md:mt-4 relative z-20 pb-24">
 				<div className="relative w-full h-[260px]  md:h-[420px] md:flex items-center ">
 					<div className="absolute right-40 top-4  h-full  z-10 md:hidden">
 						<img
@@ -168,7 +168,7 @@ const Header = () => {
 					<img
 						src={robotHand}
 						alt="appstore"
-						className="object-cover object-center absolute -bottom-32 -right-12 w-[200px] h-[200px] -z-10 md:hidden"
+						className="object-cover object-center absolute -bottom-32 -right-12 w-[200px] h-[200px] z-10 md:hidden"
 					/>
 					<div className="z-10 hidden md:block">
 						<img
