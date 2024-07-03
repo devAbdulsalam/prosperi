@@ -7,7 +7,7 @@ import circleHalf from './../assets/circleHalf.png';
 
 function AboutUs() {
 	return (
-		<section id="aboutus" className="py-16 relative isolate w-full">
+		<section id="aboutus" className="py-16 mt-12 relative isolate w-full">
 			<div
 				aria-hidden="true"
 				className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
@@ -18,14 +18,14 @@ function AboutUs() {
 			<img
 				src={waveImage}
 				alt="appstore"
-				className="object-cover object-center h-[70px] w-full absolute bottom-52 -z-10 "
+				className="object-cover object-center h-[70px] w-full absolute top-[50%] -z-10 "
 			/>
-			<img
+			{/* <img
 				src={circleHalf}
 				alt="circlefull"
 				className="object-cover object-center absolute -top-0 right-10 w-[180px] h-[180px] -z-10 opacity-20"
-			/>
-			<div className="mx-auto container flex flex-col md:flex-row items-center justify-center">
+			/> */}
+			<div className="mx-auto container md:max-w-7xl flex flex-col md:flex-row items-center justify-center">
 				<div className="flex flex-1 flex-col items-center justify-center relative p-10">
 					<img
 						src={aboutImage}
@@ -46,7 +46,7 @@ function AboutUs() {
 						}}
 						src={circleHalf}
 						alt="icon Image"
-						className="object-cover object-center h-[90px] w-[90px] absolute -top-4 md:top-16 right-16 -z-10"
+						className="object-cover object-center h-[120px] w-[120px] absolute -top-4 md:top-16 left-2 -z-10"
 					/>
 					<img
 						src={circleBlue}
@@ -66,7 +66,9 @@ function AboutUs() {
 					>
 						About us
 					</motion.h3>
-					<h2 className="text-xl md:text-3xl font-bold mb-4">Prosperi Ecosystem</h2>
+					<h2 className="text-xl md:text-3xl font-bold mb-4">
+						Prosperi Ecosystem
+					</h2>
 					<motion.p
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -75,7 +77,7 @@ function AboutUs() {
 							transition: { delay: 0.4, duration: 0.5 },
 						}}
 						viewport={{ once: false, amount: 0.5 }}
-						className="text-lg  mb-3"
+						className="md:text-lg  mb-3 leading-8"
 					>
 						Introducing Prosperi, the comprehensive financial and productivity
 						tool that empowers people and small business owners. Prosperi

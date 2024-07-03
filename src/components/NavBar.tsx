@@ -39,16 +39,16 @@ const Navbar = () => {
 				menuOpen || changeColor ? 'bg-[#06002B]' : 'bg-transparent'
 			} text-white fixed top-0 right-0 w-[100%] z-50 transition-all duration-300 ease-linear`}
 		>
-			<div className="w-full px-4 md:px-20 flex flex-wrap items-center justify-between p-3">
+			<div className="w-full px-4 md:px-20 flex flex-wrap items-center justify-between p-4">
 				<div className="text-xl font-extrabold md:pl-3 flex items-center ">
 					<img
 						src={logo}
 						alt="logo icon"
-						className="object-fit object-center h-[20px] w-[20px] mr-2"
+						className="object-contain object-center h-[20px] w-[20px] mr-0.5"
 					/>
 					Prosperi
 				</div>
-				<div className="flex md:hidden">
+				<div className="flex md:hidden text-xl">
 					<button id="hamburger" onClick={toggleMenu}>
 						<AiOutlineMenu
 							className={menuOpen ? 'hidden' : 'block'}

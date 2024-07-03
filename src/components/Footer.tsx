@@ -8,11 +8,11 @@ function Footer() {
 			<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 				{/* <!--Grid--> */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-4 pt-14 pb-20 max-w-md mx-auto md:max-w-xl lg:max-w-full">
-					<div className="text-lg font-extrabold text-white md:pl-3 flex items-top">
+					<div className="text-lg font-extrabold text-white md:pl-3 flex items-center">
 						<img
 							src={logo}
 							alt="logo icon"
-							className="object-fit object-center h-[20px] w-[20px] mr-2"
+							className="object-contain object-center h-[20px] w-[20px] mr-0.5"
 						/>
 						{'   '}
 						Prosperi
@@ -152,7 +152,7 @@ function Footer() {
 						<ul className="text-sm  transition-all duration-500">
 							<li className="mb-2">
 								<Link to="/faq" className="text-white hover:text-blue-500">
-									Faq
+									FAQs
 								</Link>
 							</li>
 							<li className="mb-2">

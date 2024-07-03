@@ -7,9 +7,9 @@ function Download() {
 	return (
 		<section
 			id="download"
-			className="py-16 w-full md:pt-32 relative md:px-8 lg:px-16"
+			className="py-16 w-full md:pt-32 relative px-2 md:px-8 lg:px-16"
 		>
-			<div className="mx-auto container flex flex-col md:flex-row items-center justify-center rounded-md bg-[#0125A6] relative">
+			<div className="mx-auto md:container md:max-w-7xl flex flex-col md:flex-row items-center justify-around rounded-md bg-[#0125A6] relative p-4">
 				<div className="flex flex-col  text-white p-4 md:p-10">
 					<h2 className="text-xl md:text-3xl font-bold">
 						Get Rewards <br className="hidden md:block" />
@@ -29,7 +29,7 @@ function Download() {
 							transition: { delay: 0.2, duration: 0.5 },
 						}}
 						viewport={{ once: false, amount: 0.5 }}
-						className="w-full flex justify-center mt-4"
+						className="w-full flex justify-center mt-6 md:mt-8"
 					>
 						<button className="mr-2 cursor-pointer">
 							<img
@@ -47,7 +47,7 @@ function Download() {
 						</button>
 					</motion.div>
 				</div>
-				<div className="flex flex-col items-center justify-center relative">
+				<div className="flex flex-col items-center justify-center relative mt-8 md:mt-0">
 					<img
 						src={sideImage}
 						alt="icon Image"

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function Cta() {
 	return (
 		<section className="py-16 px-2  w-full">
-			<h2 className="text-white text-sm md:text-lg font-semibold mb-2 text-center">
+			<h2 className="text-white text-sm md:text-lg font-semibold mb-6 text-center">
 				What are you waiting for download{' '}
 				<span className="text-[#0181F8]">Prosperi</span> app{' '}
 				<br className="hidden md:block" /> & get started now

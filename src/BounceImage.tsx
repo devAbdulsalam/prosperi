@@ -12,7 +12,7 @@ const BouncingImage = ({ src, alt }: { src: string; alt: string }) => {
 		<animated.img
 			src={src}
 			alt={alt}
-			className="object-cover object-center z-10"
+			className="object-fit object-center z-10"
 			style={styles}
 		/>
 	);

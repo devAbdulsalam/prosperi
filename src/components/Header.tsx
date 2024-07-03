@@ -30,7 +30,7 @@ const Header = () => {
 					className="object-cover object-center w-full h-full"
 				/>
 			</div>
-			<div className="p-4 md:container mx-auto">
+			<div className="md:p-4 md:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
 					<div className="absolute right-40 top-20  h-full hidden md:block z-10">
 						<img
@@ -71,13 +71,13 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
 					</div>
-					<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between z-10">
+					<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between z-10 w-fit md:w-full md:px-8">
 						<img
 							src={circleHalf}
 							alt="circlefull"
 							className="object-cover md:hidden object-center absolute -top-20 -right-24 w-[180px] h-[180px] -z-10 opacity-20"
 						/>
-						<div className="md:w-1/2 mb-4 md:mb-0">
+						<div className="md:w-1/2 mb-4 md:mb-0 md:ml-10">
 							<motion.div
 								initial={{ opacity: 0, y: 50 }}
 								whileInView={{
@@ -90,14 +90,13 @@ const Header = () => {
 							>
 								<ReactTyped
 									strings={[
-										'Unlock Exclusive Rewards with Prosperie',
-										'Spend <br /> an get rewarded',
-										'Enjoy our <br /> unique loyalty and rewards program',
+										'Unlock Exclusive Rewards with Prosperi',
+										'Enjoy our unique <br /> loyalty and rewards program',
 									]}
-									typeSpeed={80}
-									backSpeed={60}
+									typeSpeed={100}
+									backSpeed={600}
 									loop
-									className="text-grey-700 font-extrabold text-3xl md:text-5xl leading-10 mb-2"
+									className="text-grey-700 font-extrabold text-2xl md:text-4xl leading-10 mb-2"
 								/>
 							</motion.div>
 							<motion.h3
@@ -112,11 +111,11 @@ const Header = () => {
 							>
 								With blockchain productivity
 							</motion.h3>
-							<div className="w-full md:flex mt-6 md:mt-10 gap-3  space-y-3 md:space-y-0 justify-center items-center">
-								<button className="px-4 md:px-10 py-2 md:py-3 font-semibold bg-white rounded-md border-2 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
+							<div className="w-full flex mt-6 md:mt-10 gap-3 justify-center md:justify-start items-center">
+								<button className="px-2 md:px-10 py-2 md:py-3 whitespace-nowrap font-semibold bg-white rounded-md border-2 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
 									Get Started
 								</button>
-								<button className="ml-2 md:ml-4 text-white font-semibold rounded-md border-2 border-white px-4 md:px-10 py-2 md:py-3   hover:border-[#06002B] hover:bg-[#06002B] shadow-sm shadow-[#53A6FF] md:shadow-[#06002B] transition-all duration-150 ease-in-out">
+								<button className="ml-1 md:ml-4 text-white whitespace-nowrap font-semibold rounded-md border-2 border-white px-2 md:px-10 py-2 md:py-3   hover:border-[#06002B] hover:bg-[#06002B] shadow-sm shadow-[#53A6FF] md:shadow-[#06002B] transition-all duration-150 ease-in-out">
 									Read Our Docs
 								</button>
 							</div>
@@ -165,17 +164,17 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
 					</div>
-					<div className="absolute -bottom-48 right-12 w-[200px] h-[200px] z-10 md:hidden">
+					<div className="absolute -bottom-48 right-8 w-[200px] h-[200px] z-10 md:hidden">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
-					<div className="z-10 hidden md:block">
+					<div className="z-10 hidden md:block absolute left-24 top-0">
 						<img
 							src={ikImage}
 							alt="appstore"
 							className="object-cover object-center z-10"
 						/>
 					</div>
-					<div className="z-10 hidden md:block">
+					<div className="z-10 hidden md:block absolute -right-12 bottom-0">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 				</div>
