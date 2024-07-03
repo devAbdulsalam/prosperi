@@ -11,7 +11,7 @@ function Index() {
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
 				<div className="flex-1 text-white">
-					<h2 className="text-3xl font-semibold  mb-4">COMPANY</h2>
+					<h2 className="text-xl md:text-3xl font-semibold  mb-4">COMPANY</h2>
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -36,7 +36,7 @@ function Index() {
 								y: 0,
 								transition: { delay: 0.4, duration: 0.5 },
 							}}
-							className="mt-2 text-white text-lg"
+							className="mt-2 text-white md:text-lg"
 						>
 							Prosperi is dedicated to transforming how you manage your
 							finances. Our app leverages blockchain technology to provide
@@ -54,7 +54,7 @@ function Index() {
 								y: 0,
 								transition: { delay: 0.4, duration: 0.5 },
 							}}
-							className="mt-2 text-white text-lg"
+							className="mt-2 text-white md:text-lg"
 						>
 							Have questions or need support? Reach out to our customer service
 							team at support@prosperi.app. We’re here to help you with any

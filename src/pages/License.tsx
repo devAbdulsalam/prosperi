@@ -10,7 +10,7 @@ const Index = () => {
 			<Part />
 			<div className="py-10 text-white">
 				<div className="py-10 container mx-auto">
-					<h2 className="text-3xl font-semibold text-white mb-4">Licence</h2>
+					<h2 className="md:text-3xl font-semibold text-white mb-4">Licence</h2>
 					<p className="text-white mb-4">
 						<span className="text-2xl font-semibold">
 							Proprietary Software License:

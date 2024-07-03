@@ -118,7 +118,9 @@ const Index = () => {
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:pt-14 gap-4">
 				<div className="flex-1 text-white py-10">
-					<h2 className="text-3xl font-semibold  mb-4 mt-5 md:mt-0">User Guide</h2>
+					<h2 className="text-xl md:text-3xl font-semibold  mb-4 mt-5 md:mt-0">
+						User Guide
+					</h2>
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -126,7 +128,7 @@ const Index = () => {
 							y: 0,
 							transition: { delay: 0.4, duration: 0.5 },
 						}}
-						className="text-2xl font-semibold mb-4 text-[#007BFF]"
+						className="text-lg md:text-2xl font-semibold mb-4 text-[#007BFF]"
 					>
 						Getting Started
 					</motion.h3>
@@ -139,7 +141,9 @@ const Index = () => {
 							Get the Prosperi app from the App Store or Google Play.
 						</li>
 						<li>
-							<span className="md:text-lg font-semibold">Create an Account: </span>
+							<span className="md:text-lg font-semibold">
+								Create an Account:{' '}
+							</span>
 							Follow the prompts to set up your account and decentralized
 							wallet.
 						</li>
@@ -164,7 +168,9 @@ const Index = () => {
 							<ul className="list-disc space-y-3 ml-3 md:ml-6">
 								{item?.items.map((item, index) => (
 									<li key={index}>
-										<span className="md:text-lg font-semibold">{item.text}</span>{' '}
+										<span className="md:text-lg font-semibold">
+											{item.text}
+										</span>{' '}
 										{item.content}
 									</li>
 								))}

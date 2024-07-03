@@ -11,7 +11,7 @@ function Index() {
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
 				<div className="flex-1 text-white">
-					<h2 className="text-3xl font-semibold  mb-4">Blog</h2>
+					<h2 className="text-xl md:text-3xl font-semibold  mb-4">Blog</h2>
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -26,7 +26,7 @@ function Index() {
 				</div>
 				<div className="flex-1">
 					<div className="py-4">
-						<h2 className="text-2xl font-semibold text-white mb-4">
+						<h2 className="text-lg md:text-2xl font-semibold text-white mb-4">
 							Stay updated
 						</h2>
 						<motion.p
@@ -36,7 +36,7 @@ function Index() {
 								y: 0,
 								transition: { delay: 0.4, duration: 0.5 },
 							}}
-							className="mt-2 text-white text-lg"
+							className="mt-2 text-white md:text-lg"
 						>
 							Stay informed with the latest news, insights, and updates from
 							Prosperi. Our blog covers a range of topics, including financial

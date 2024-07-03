@@ -165,11 +165,9 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
 					</div>
-					<img
-						src={robotHand}
-						alt="appstore"
-						className="object-cover object-center absolute -bottom-32 -right-12 w-[200px] h-[200px] z-10 md:hidden"
-					/>
+					<div className="absolute -bottom-48 right-12 w-[200px] h-[200px] z-10 md:hidden">
+						<BouncingImage src={robotHand} alt="robotHand" />
+					</div>
 					<div className="z-10 hidden md:block">
 						<img
 							src={ikImage}
