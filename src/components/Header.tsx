@@ -86,7 +86,7 @@ const Header = () => {
 									transition: { delay: 0.2, duration: 0.5 },
 								}}
 								viewport={{ once: false, amount: 0.5 }}
-								className="mb-10 relative"
+								className="mb-4 md:mb-10 relative"
 							>
 								<ReactTyped
 									strings={[
@@ -100,13 +100,13 @@ const Header = () => {
 								/>
 								<ReactTyped
 									strings={[
-										'Unlock Exclusive  Rewards with Prosperi',
-										'Enjoy our unique  loyalty and rewards program',
+										'Unlock Exclusive Rewards with Prosperi',
+										'Enjoy our unique loyalty and rewards program',
 									]}
 									typeSpeed={100}
 									backSpeed={600}
 									loop
-									className="text-grey-700 font-extrabold text-2xl md:text-4xl leading-10 mb-2 md:hidden"
+									className="text-grey-700 font-bold text-2xl leading-10  md:hidden"
 								/>
 							</motion.div>
 							<motion.h3
