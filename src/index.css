@@ -29,3 +29,6 @@
 .debug {
 	border: 1px red solid;
 }
+.rotated {
+    transform: rotate(45deg); /* Rotates by 45 degrees */
+}
