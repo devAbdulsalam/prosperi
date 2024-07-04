@@ -35,7 +35,7 @@ function AboutUs() {
 					<img
 						src={circlePink}
 						alt="icon Image"
-						className="object-cover object-center h-[70px] w-[70px] absolute md:-left-12 -bottom-6 -z-10"
+						className="object-cover object-center md:h-[120px] md:w-[120px] absolute  -top-2 -left-6 -z-10"
 					/>
 					<motion.img
 						initial={{ opacity: 0, x: 50 }}
@@ -46,13 +46,13 @@ function AboutUs() {
 						}}
 						src={circleHalf}
 						alt="icon Image"
-						className="object-cover object-center h-[120px] w-[120px] absolute -top-4 md:top-16 left-2 -z-10"
+						className="object-cover object-center md:h-[120px] md:w-[120px] absolute md:-left-6 bottom-4 -z-10"
 					/>
-					<img
+					{/* <img
 						src={circleBlue}
 						alt="icon Image"
-						className="object-cover object-center h-[90px] w-[90px] absolute -top-10 -left-12 -z-10"
-					/>
+						className="object-cover object-center h-[120px] w-[120px] absolute -top-4 md:top-16 left-2 -z-10"
+					/> */}
 				</div>
 				<div className="flex-1 p-4 md:p-10 text-white">
 					<motion.h3

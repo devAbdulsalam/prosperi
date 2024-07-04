@@ -16,7 +16,7 @@ function Why() {
 				<div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#7274e6] to-[#5856e2] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem] clipPath"></div>
 			</div>
 			<div className="mx-auto container md:max-w-7xl flex  md:flex-row items-center justify-center flex-col-reverse text-white">
-				<div className="p-4 md:p-10 flex-1 mt-10 md:mt-0">
+				<div className="p-4 md:py-10 flex-1 mt-10 md:mt-0">
 					<h3 className="text-xl font-semibold mb-4">WHY PROSPERI?</h3>
 					<p className="text-lg md:text-3xl md:font-bold mb-8">
 						At Prosperi, we believe in rewarding our users for their loyalty and

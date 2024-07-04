@@ -9,7 +9,7 @@ function Download() {
 			id="download"
 			className="py-16 w-full md:pt-32 relative px-2 md:px-8 lg:px-16"
 		>
-			<div className="mx-auto md:container md:max-w-7xl flex flex-col md:flex-row items-center justify-around rounded-md bg-[#0125A6] relative p-4">
+			<div className="mx-auto md:container md:max-w-7xl flex flex-col md:flex-row items-center justify-between rounded-md bg-[#0125A6] relative p-4">
 				<div className="flex flex-col  text-white p-4 md:p-10">
 					<h2 className="text-xl md:text-3xl font-bold">
 						Get Rewards <br className="hidden md:block" />
