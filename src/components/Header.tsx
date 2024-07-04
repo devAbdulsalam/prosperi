@@ -133,7 +133,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-full container mx-auto  md:mt-4 relative z-20 pb-24">
+			<div className="w-full container mx-auto  md:mt-4 relative z-20 pb-52">
 				<div className="relative w-full h-[260px]  md:h-[420px] md:flex items-center ">
 					<div className="absolute right-40 top-4  h-full  z-10 md:hidden">
 						<img
@@ -174,7 +174,7 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
 					</div>
-					<div className="absolute -bottom-48 right-8 w-[200px] h-[200px] z-10 md:hidden">
+					<div className="absolute -bottom-72 right-0 w-[440px] h-[340px] z-10 md:hidden">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 					<div className="z-10 hidden md:block absolute left-24 top-0">

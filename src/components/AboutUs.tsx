@@ -18,7 +18,7 @@ function AboutUs() {
 			<img
 				src={waveImage}
 				alt="appstore"
-				className="object-cover object-center h-[70px] w-full absolute top-[50%] -z-10 "
+				className="object-cover object-center h-[70px] w-full absolute top-52 md:top-[50%] -z-10 "
 			/>
 			{/* <img
 				src={circleHalf}
@@ -35,7 +35,7 @@ function AboutUs() {
 					<img
 						src={circlePink}
 						alt="icon Image"
-						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute  -top-2 left-4 md:-left-6 -z-10"
+						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute  -top-2 left-6 md:-left-6 -z-10"
 					/>
 					<motion.img
 						initial={{ opacity: 0, x: 50 }}
@@ -46,7 +46,7 @@ function AboutUs() {
 						}}
 						src={circleHalf}
 						alt="icon Image"
-						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute left-0 md:-left-6 bottom-4 -z-10"
+						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute left-6 md:-left-6 bottom-4 -z-10"
 					/>
 					{/* <img
 						src={circleBlue}
