@@ -102,7 +102,7 @@ const TestimonialSlider = () => {
 				<div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 "></div>
 			</div>
 			<div className="text-center w-full mb-5">
-				<h3 className="text-xl font-semibold mb-2 text-[#007BFF]">
+				<h3 className="text-lg md:text-xl font-semibold mb-2 text-[#007BFF]">
 					WHAT THEY SAY
 				</h3>
 				<motion.h2
@@ -117,7 +117,7 @@ const TestimonialSlider = () => {
 				>
 					Testimonials
 				</motion.h2>
-				<h3 className="text-lg font-semibold mb-6 text-[#A2C4FE]">
+				<h3 className="text-sm md:text-lg font-semibold mb-6 text-[#A2C4FE]">
 					Here are some kind words from our clients after <br /> using our
 					services
 				</h3>

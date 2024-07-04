@@ -18,7 +18,7 @@ function Why() {
 			<div className="mx-auto container md:max-w-7xl flex  md:flex-row items-center justify-center flex-col-reverse text-white">
 				<div className="p-4 md:py-10 flex-1 mt-10 md:mt-0">
 					<h3 className="text-xl font-semibold mb-4">WHY PROSPERI?</h3>
-					<p className="text-lg md:text-3xl md:font-bold mb-8">
+					<p className="text-sm md:text-3xl md:font-bold mb-8">
 						At Prosperi, we believe in rewarding our users for their loyalty and
 						engagement.
 					</p>
@@ -37,7 +37,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-7 w-7 md:h-10 md:w-10"
 							/>
-							<p className="md:text-lg font-semibold">Referral Program</p>
+							<p className="md:text-lg">Referral Program</p>
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
@@ -53,7 +53,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-7 w-7 md:h-10 md:w-10"
 							/>
-							<p className="md:text-lg font-semibold">Milestone Rewards</p>
+							<p className="md:text-lg">Milestone Rewards</p>
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
@@ -69,9 +69,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-7 w-7 md:h-10 md:w-10"
 							/>
-							<p className="md:text-lg font-semibold">
-								Decentralised wallet integration
-							</p>
+							<p className="md:text-lg">Decentralised wallet integration</p>
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
@@ -87,7 +85,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-7 w-7 md:h-10 md:w-10"
 							/>
-							<p className="md:text-lg font-semibold">Cashback Offers</p>
+							<p className="md:text-lg">Cashback Offers</p>
 						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, x: -50 }}
@@ -103,7 +101,7 @@ function Why() {
 								alt="icon Image"
 								className="object-cover object-center h-7 w-7 md:h-10 md:w-10"
 							/>
-							<p className="md:text-lg font-semibold">Gamified Challenges: </p>
+							<p className="md:text-lg">Gamified Challenges: </p>
 						</motion.div>
 					</div>
 				</div>

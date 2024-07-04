@@ -10,7 +10,7 @@ function Index() {
 			<Navbar />
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
-				<div className="flex-1 text-white">					
+				<div className="flex-1 text-white">
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}
 						whileInView={{
@@ -18,7 +18,7 @@ function Index() {
 							y: 0,
 							transition: { delay: 0.4, duration: 0.5 },
 						}}
-						className="text-2xl font-semibold mb-4 text-[#007BFF]"
+						className="text-2xl font-semibold mb-4 text-[#007BFF] mt-20 md:mt-0"
 					>
 						About Us
 					</motion.h3>

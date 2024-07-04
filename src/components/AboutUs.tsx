@@ -35,7 +35,7 @@ function AboutUs() {
 					<img
 						src={circlePink}
 						alt="icon Image"
-						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute  -top-2 -left-6 -z-10"
+						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute  -top-2 left-4 md:-left-6 -z-10"
 					/>
 					<motion.img
 						initial={{ opacity: 0, x: 50 }}
@@ -46,7 +46,7 @@ function AboutUs() {
 						}}
 						src={circleHalf}
 						alt="icon Image"
-						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute md:-left-6 bottom-4 -z-10"
+						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute left-0 md:-left-6 bottom-4 -z-10"
 					/>
 					{/* <img
 						src={circleBlue}
@@ -66,7 +66,7 @@ function AboutUs() {
 					>
 						About us
 					</motion.h3>
-					<h2 className="text-xl md:text-3xl font-bold mb-4">
+					<h2 className="text-lg md:text-xl lg:text-3xl font-bold mb-4">
 						Prosperi Ecosystem
 					</h2>
 					<motion.p
@@ -77,7 +77,7 @@ function AboutUs() {
 							transition: { delay: 0.4, duration: 0.5 },
 						}}
 						viewport={{ once: false, amount: 0.5 }}
-						className="md:text-lg  mb-3 leading-8"
+						className="text-sm md:text-lg  mb-3 leading-8"
 					>
 						Introducing Prosperi, the comprehensive financial and productivity
 						tool that empowers people and small business owners. Prosperi
