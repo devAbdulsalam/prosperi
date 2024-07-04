@@ -33,8 +33,8 @@ const Index = () => {
 						</motion.p>
 					</div>
 				</div>
-				<div className="flex-1 py-10 container mx-auto">
-					<h2 className="text-xl md:text-3xl font-semibold text-white mb-4">
+				<div className="flex-1 pt-2 py-4 md:py-10 container mx-auto">
+					<h2 className="text-lg md:text-3xl font-semibold text-white mb-4">
 						Usage Restrictions
 					</h2>
 					<motion.p
