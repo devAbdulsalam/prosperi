@@ -46,7 +46,7 @@ function AboutUs() {
 						}}
 						src={circleHalf}
 						alt="icon Image"
-						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute left-3 md:-left-6 bottom-4 -z-10"
+						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute -left-3 md:-left-6 bottom-4 -z-10"
 					/>
 					{/* <img
 						src={circleBlue}
