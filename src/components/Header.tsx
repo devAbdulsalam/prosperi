@@ -58,7 +58,7 @@ const Header = () => {
 							}}
 							src={notification}
 							alt="notification right"
-							className="object-cover object-center absolute bottom-44 -right-36 z-10"
+							className="object-cover object-center absolute bottom-44 -right-24 md:-right-36 z-10"
 						/>
 						<img
 							src={circlefull}
@@ -122,7 +122,7 @@ const Header = () => {
 								With blockchain productivity
 							</motion.h3>
 							<div className="w-full flex mt-6 md:mt-10 gap-3 justify-start items-center">
-								<button className="px-2 md:px-10 py-2 md:py-3 whitespace-nowrap md:font-semibold bg-white rounded-md border-1 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
+								<button className="px-3 md:px-10 py-2 md:py-3 whitespace-nowrap md:font-semibold bg-white rounded-md border-1 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
 									Get Started
 								</button>
 								<button className="px-2 md:px-10 py-2 md:py-3 ml-1 md:ml-4 text-white whitespace-nowrap md:font-semibold rounded-md border-1 border-white hover:border-[#06002B] hover:bg-[#06002B] shadow-sm shadow-[#53A6FF] md:shadow-[#06002B] transition-all duration-150 ease-in-out">
@@ -174,7 +174,7 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
 					</div>
-					<div className="absolute -bottom-64 right-0  z-10  md:hidden">
+					<div className="absolute -bottom-60 right-0  z-10  md:hidden">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 					<div className="z-10 hidden md:block absolute left-24 top-0">
