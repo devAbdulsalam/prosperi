@@ -11,7 +11,9 @@ const Index = () => {
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col gap-4 md:flex-row pt-26  p-4 md:p-10 md:min-h-[60vh] items-center ">
 				<div className="flex-1 text-white">
-					<h2 className="text-xl md:text-3xl font-semibold  mb-4">Licence</h2>
+					<h2 className="text-xl md:text-3xl font-semibold mt-20 md:mt-0 mb-4">
+						Licence
+					</h2>
 					<div className="py-4">
 						<h2 className="text-lg md:text-2xl font-semibold  text-[#007BFF] mb-4">
 							Proprietary Software License

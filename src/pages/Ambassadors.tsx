@@ -11,7 +11,7 @@ function Index() {
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
 				<div className="flex-1 text-white">
-					<h2 className="text-xl md:text-3xl font-semibold mb-4 capitalize">
+					<h2 className="text-xl md:text-3xl font-semibold mb-4 capitalize mt-20 md:mt-0">
 						Ambassadors
 					</h2>
 					<motion.h3

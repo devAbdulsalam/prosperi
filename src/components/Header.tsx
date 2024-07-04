@@ -30,7 +30,7 @@ const Header = () => {
 					className="object-cover object-center w-full h-full"
 				/>
 			</div>
-			<div className="md:p-4 md:container mx-auto">
+			<div className="md:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
 					<div className="absolute right-40 top-20  h-full hidden md:block z-10">
 						<img
@@ -77,7 +77,7 @@ const Header = () => {
 							alt="circlefull"
 							className="object-cover md:hidden object-center absolute -top-20 -right-24 w-[180px] h-[180px] -z-10 opacity-20"
 						/>
-						<div className="md:w-1/2 mb-4 md:mb-0 md:ml-10">
+						<div className="md:w-1/2 mb-4 md:mb-0">
 							<motion.div
 								initial={{ opacity: 0, y: 50 }}
 								whileInView={{
@@ -90,7 +90,7 @@ const Header = () => {
 							>
 								<ReactTyped
 									strings={[
-										'Unlock Exclusive Rewards with Prosperi',
+										'Unlock Exclusive <br /> Rewards with Prosperi',
 										'Enjoy our unique <br /> loyalty and rewards program',
 									]}
 									typeSpeed={100}

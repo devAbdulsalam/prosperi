@@ -118,7 +118,7 @@ const Index = () => {
 			<Part />
 			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:pt-14 gap-4">
 				<div className="flex-1 text-white pt-10">
-					<h2 className="text-xl md:text-3xl font-semibold  mb-4 mt-5 md:mt-0">
+					<h2 className="text-xl md:text-3xl font-semibold  mb-4 mt-20 md:mt-0">
 						User Guide
 					</h2>
 					<motion.h3
@@ -158,12 +158,12 @@ const Index = () => {
 				</div>
 				<div className="pb-0 md:py-10 flex-1 text-white"></div>
 			</div>
-			<div className="container md:max-w-6xl mx-auto p-4 gap-4">
+			<div className="container md:max-w-6xl mx-auto p-4 gap-4 md:p-10">
 				<div className="flex-1 text-white">
 					<h2 className="text-xl md:text-2xl font-semibold text-white mb-4">
 						Main Features
 					</h2>
-					<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-4 pb-10 md:p-20">
+					<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-4 pb-10">
 						{mainFeatures.map((item, index) => (
 							<div key={index} className="mb-3">
 								<h2 className="text-lg md:text-xl font-semibold text-[#A2C4FE] mb-4">
