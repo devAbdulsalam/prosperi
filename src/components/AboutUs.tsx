@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import aboutImage from './../assets/aboutImage.png';
 import waveImage from './../assets/wave.png';
-import circleBlue from './../assets/circleBlue.png';
+// import circleBlue from './../assets/circleBlue.png';
 import circlePink from './../assets/circlePink.png';
 import circleHalf from './../assets/circleHalf.png';
 
@@ -30,12 +30,12 @@ function AboutUs() {
 					<img
 						src={aboutImage}
 						alt="icon Image"
-						className="object-cover object-center  w-full"
+						className="object-cover object-center w-full"
 					/>
 					<img
 						src={circlePink}
 						alt="icon Image"
-						className="object-cover object-center md:h-[120px] md:w-[120px] absolute  -top-2 -left-6 -z-10"
+						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute  -top-2 -left-6 -z-10"
 					/>
 					<motion.img
 						initial={{ opacity: 0, x: 50 }}
@@ -46,7 +46,7 @@ function AboutUs() {
 						}}
 						src={circleHalf}
 						alt="icon Image"
-						className="object-cover object-center md:h-[120px] md:w-[120px] absolute md:-left-6 bottom-4 -z-10"
+						className="object-cover object-center h-[70px] w-[70px] md:h-[120px] md:w-[120px] absolute md:-left-6 bottom-4 -z-10"
 					/>
 					{/* <img
 						src={circleBlue}
