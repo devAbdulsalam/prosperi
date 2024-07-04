@@ -174,7 +174,7 @@ const Header = () => {
 							className="object-cover object-center z-10"
 						/>
 					</div>
-					<div className="z-10 hidden md:block absolute -right-12 bottom-0">
+					<div className="z-10 hidden md:block absolute -right-20 bottom-0">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 				</div>
