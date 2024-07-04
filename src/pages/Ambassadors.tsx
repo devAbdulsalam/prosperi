@@ -21,13 +21,24 @@ function Index() {
 							y: 0,
 							transition: { delay: 0.4, duration: 0.5 },
 						}}
-						className="text-lg md:text-2xl font-semibold mb-4 text-[#007BFF]"
+						className="text-lg md:text-2xl font-semibold mb-4 text-[#007BFF] hidden md:block"
 					>
 						Join the Prosperi Ambassador Program
 					</motion.h3>
 				</div>
 				<div className="flex-1">
 					<div className="py-4">
+						<motion.h3
+							initial={{ opacity: 0, y: 50 }}
+							whileInView={{
+								opacity: 1,
+								y: 0,
+								transition: { delay: 0.4, duration: 0.5 },
+							}}
+							className="text-lg md:text-2xl font-semibold mb-4 text-[#007BFF] md:hidden"
+						>
+							Join the Prosperi Ambassador Program
+						</motion.h3>
 						<motion.p
 							initial={{ opacity: 0, y: 50 }}
 							whileInView={{
