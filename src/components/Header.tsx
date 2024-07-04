@@ -9,7 +9,7 @@ import headerPhone from './../assets/header-phone-icon.png';
 import { ReactTyped } from 'react-typed';
 import { motion } from 'framer-motion';
 import BouncingImage from '../BounceImage';
-import circleHalf from './../assets/circleHalf.png';
+// import circleHalf from './../assets/circleHalf.png';
 const Header = () => {
 	return (
 		<header
