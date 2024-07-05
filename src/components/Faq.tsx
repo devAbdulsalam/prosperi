@@ -107,19 +107,26 @@ const Index = () => {
 						support team.
 					</motion.h3>
 				</div>
-				<div className="flex-1">
+				<div className="pb-0 md:py-10 flex-1 text-white"></div>
+			</div>
+			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-8">
+				<div className="flex-1 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-4 pb-10">
 					{faqData.map((item, index) => (
 						<div key={index} className="py-4">
 							<h3 className="text-lg font-medium text-[#A2C4FE]">
 								{item.question}
 							</h3>
 							<motion.p
-						initial={{ opacity: 0, y: 50 }}
-						whileInView={{
-							opacity: 1,
-							y: 0,
-							transition: { delay: 0.4, duration: 0.5 },
-						}} className="mt-2 text-white md:text-lg">{item.answer}</motion.p>
+								initial={{ opacity: 0, y: 50 }}
+								whileInView={{
+									opacity: 1,
+									y: 0,
+									transition: { delay: 0.4, duration: 0.5 },
+								}}
+								className="mt-2 text-white md:text-lg"
+							>
+								{item.answer}
+							</motion.p>
 						</div>
 					))}
 				</div>

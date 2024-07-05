@@ -86,7 +86,7 @@ const Header = () => {
 									transition: { delay: 0.2, duration: 0.5 },
 								}}
 								viewport={{ once: false, amount: 0.5 }}
-								className="mb-4 md:mb-10 relative"
+								className="mt-10 md:mt-0 mb-4 md:mb-10 relative"
 							>
 								<ReactTyped
 									strings={[
@@ -96,7 +96,7 @@ const Header = () => {
 									typeSpeed={100}
 									backSpeed={600}
 									loop
-									className="text-grey-700 font-extrabold text-2xl md:text-4xl leading-10 mb-2 hidden md:block"
+									className="text-grey-700 font-extrabold text-3xl md:text-4xl leading-10 mb-2 hidden md:block"
 								/>
 								<ReactTyped
 									strings={[
@@ -125,7 +125,7 @@ const Header = () => {
 								<button className="px-3 md:px-10 py-2 md:py-3 whitespace-nowrap md:font-semibold bg-white rounded-md border-1 text-[#007BFF] hover:bg-[#53A6FF] hover:border-[#007BFF] shadow-sm shadow-[#53A6FF] transition-all duration-150 ease-in-out">
 									Get Started
 								</button>
-								<button className="px-2 md:px-10 py-2 md:py-3 ml-1 md:ml-4 text-white whitespace-nowrap md:font-semibold rounded-md border-1 border-white hover:border-[#06002B] hover:bg-[#06002B] shadow-sm shadow-[#53A6FF] md:shadow-[#06002B] transition-all duration-150 ease-in-out">
+								<button className="px-2 md:px-10 py-2 md:py-3 ml-1 md:ml-4 text-white whitespace-nowrap md:font-semibold rounded-md border-2 border-white hover:border-[#06002B] hover:bg-[#06002B] shadow-sm shadow-[#53A6FF] md:shadow-[#06002B] transition-all duration-150 ease-in-out">
 									Read Our Docs
 								</button>
 							</div>
