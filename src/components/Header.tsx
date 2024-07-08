@@ -3,8 +3,9 @@ import layer2 from './../assets/wave2.png';
 import robotHand from './../assets/robotHand.png';
 import notification from './../assets/notification.png';
 import ikImage from './../assets/1kImage.png';
-import circlefull from './../assets/circlefull.png';
+// import circlefull from './../assets/circlefull.png';
 import coinImage from './../assets/coinImage.png';
+import coinFull from './../assets/coinFull.png';
 import headerPhone from './../assets/header-phone-icon.png';
 import { ReactTyped } from 'react-typed';
 import { motion } from 'framer-motion';
@@ -28,7 +29,7 @@ const Header = () => {
 			/>
 			<div className="md:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
-					<div className="absolute right-40 top-20  h-full hidden md:block z-10">
+					<div className="absolute right-52 lg:right-56 top-32 h-full hidden md:block z-10">
 						<img
 							src={headerPhone}
 							alt="Background Image"
@@ -54,26 +55,31 @@ const Header = () => {
 							}}
 							src={notification}
 							alt="notification right"
-							className="object-cover object-center absolute bottom-44 -right-24 md:-right-36 z-10"
+							className="object-cover object-center absolute bottom-44 -right-24 md:-right-40 z-10"
 						/>
-						<img
+						{/* <img
 							src={circlefull}
 							alt="circlefull"
 							className="object-cover object-center absolute -top-10 -right-16 w-[180px] h-[180px] -z-10"
-						/>
+						/> */}
 						<img
 							src={coinImage}
 							alt="circlefull"
-							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
+							className="object-cover object-center absolute bottom-10 -right-16 w-[70px] h-[70px] -z-10"
+						/>
+						<img
+							src={coinFull}
+							alt="coinfull"
+							className="object-cover object-center absolute bottom-20 -left-20 w-[120px] h-[120px] z-10"
 						/>
 					</div>
 					<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between z-10 w-fit md:w-full md:px-8">
 						{/* <img
 							src={circleHalf}
 							alt="circlefull"
-							className="object-cover md:hidden object-center absolute -top-20 -right-24 w-[180px] h-[180px] -z-10 opacity-20"
+							className="object-cover md:hidden object-center debug absolute -top-20 -right-24 w-[180px] h-[180px] -z-10 opacity-20"
 						/> */}
-						<div className="md:w-1/2 mb-4 md:mb-0">
+						<div className="md:w-1/2 mb-4 md:mb-0 pt-4 md:pt-20">
 							<motion.div
 								initial={{ opacity: 0, y: 50 }}
 								whileInView={{
@@ -129,7 +135,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-full container mx-auto  md:mt-10 relative z-20 ">
+			<div className="w-full container mx-auto md:mt-10 relative z-20 mb-52 lg:mb-0">
 				<div className="relative w-full h-[260px]  md:h-[420px] md:flex items-center ">
 					<div className="absolute right-40 top-4  h-full  z-10 md:hidden">
 						<img
@@ -157,30 +163,35 @@ const Header = () => {
 							}}
 							src={notification}
 							alt="notification right"
-							className="object-cover object-center absolute bottom-44 -right-36 z-10"
+							className="object-cover object-center absolute bottom-44 -right-24 z-10"
 						/>
-						<img
+						{/* <img
 							src={circlefull}
 							alt="circlefull"
 							className="object-cover opacity-20 object-center absolute -top-10 -right-16 w-[180px] h-[180px] -z-10"
-						/>
+						/> */}
 						<img
 							src={coinImage}
 							alt="circlefull"
 							className="object-cover object-center absolute bottom-10 -right-12 w-[70px] h-[70px] -z-10"
 						/>
+						<img
+							src={coinFull}
+							alt="circlefull"
+							className="object-cover object-center absolute bottom-12 -left-20 w-[90px] h-[90px] z-10"
+						/>
 					</div>
 					<div className="absolute -bottom-60 right-0  z-10  md:hidden">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
-					<div className="z-10 hidden md:block absolute left-24 top-0">
+					<div className="z-10 hidden md:block absolute left-24 bottom-14">
 						<img
 							src={ikImage}
 							alt="appstore"
 							className="object-cover object-center z-10"
 						/>
 					</div>
-					<div className="z-10 hidden md:block absolute -right-20 bottom-0">
+					<div className="z-10 hidden md:block absolute -right-20 -bottom-20">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 				</div>
