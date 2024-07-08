@@ -29,7 +29,7 @@ const Header = () => {
 			/>
 			<div className="md:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
-					<div className="absolute right-52 lg:right-56 top-32 h-full hidden md:block z-10">
+					<div className="absolute md:right-44 lg:right-56 top-32 h-full hidden lg:block z-10">
 						<img
 							src={headerPhone}
 							alt="Background Image"
@@ -73,13 +73,13 @@ const Header = () => {
 							className="object-cover object-center absolute bottom-20 -left-20 w-[120px] h-[120px] z-10"
 						/>
 					</div>
-					<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between z-10 w-fit md:w-full md:px-8">
+					<div className="absolute inset-9 flex flex-col md:flex-row items-center justify-between gap-4 z-10 w-fit md:w-full md:px-8">
 						{/* <img
 							src={circleHalf}
 							alt="circlefull"
 							className="object-cover md:hidden object-center debug absolute -top-20 -right-24 w-[180px] h-[180px] -z-10 opacity-20"
 						/> */}
-						<div className="md:w-1/2 mb-4 md:mb-0 pt-4 md:pt-20">
+						<div className="md:w-3/4 lg:w-1/2 mb-4 md:mb-0 pt-4 md:pt-20">
 							<motion.div
 								initial={{ opacity: 0, y: 50 }}
 								whileInView={{
@@ -98,7 +98,7 @@ const Header = () => {
 									typeSpeed={100}
 									backSpeed={600}
 									loop
-									className="text-grey-700 font-extrabold text-3xl md:text-4xl leading-10 mb-2 hidden md:block"
+									className="text-grey-700 font-extrabold text-4xl md:text-5xl xl:text-6xl leading-10 mb-2 hidden md:block"
 								/>
 								<ReactTyped
 									strings={[
@@ -135,9 +135,9 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-full container mx-auto md:mt-10 relative z-20 mb-52 lg:mb-0">
+			<div className="w-full container mx-auto md:mt-10 relative z-20 mb-64 lg:mb-64 xl:mb-0">
 				<div className="relative w-full h-[260px]  md:h-[420px] md:flex items-center ">
-					<div className="absolute right-40 top-4  h-full  z-10 md:hidden">
+					<div className="absolute right-40 top-4  h-full  z-10 lg:hidden">
 						<img
 							src={headerPhone}
 							alt="Background Image"
@@ -184,14 +184,19 @@ const Header = () => {
 					<div className="absolute -bottom-60 right-0  z-10  md:hidden">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
-					<div className="z-10 hidden md:block absolute left-24 bottom-14">
+					<div className="z-50 xl:z-10 hidden md:block absolute md:left-12 lg:left-24 md:top-24 lg:top-14 lg:bottom-14">
 						<img
 							src={ikImage}
 							alt="appstore"
-							className="object-cover object-center z-10"
+							className="object-cover object-center z-10 hidden lg:block"
+						/>
+						<img
+							src={ikImage}
+							alt="appstore"
+							className="object-cover object-center w-[320px]  z-10 lg:hidden"
 						/>
 					</div>
-					<div className="z-10 hidden md:block absolute -right-20 -bottom-20">
+					<div className="z-10 hidden md:block -right-32 -bottom-[400px] absolute lg:-right-20 lg:-bottom-20">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 				</div>
