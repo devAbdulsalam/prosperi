@@ -1,6 +1,6 @@
 import Navbar from '../components/NavBar';
 import Header from '../components/Header';
-// import Part from '../components/Part';
+import Part from '../components/Part';
 import Why from '../components/Why';
 import AboutUs from '../components/AboutUs';
 import Testimonial from '../components/Testimonial';
@@ -13,7 +13,7 @@ const App = () => {
 	return (
 		<div className="bg-[#06002B] min-h-screen w-full relative overflow-hidden">
 			<Navbar />
-			{/* <Part /> */}
+			<Part />
 			<Header />
 			<Download />
 			<Why />

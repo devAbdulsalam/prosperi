@@ -89,7 +89,7 @@ const Index = () => {
 					<FAQItem key={index} question={item.question} answer={item.answer} />
 				))}
 			</div> */}
-			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-8">
+			<div className="container md:px-20 mx-auto flex flex-col md:flex-row p-4 md:p-8">
 				<div className="flex-1 text-white">
 					<h2 className="text-xl md:text-3xl font-semibold  mb-4">
 						Frequently asked questions
@@ -109,7 +109,7 @@ const Index = () => {
 				</div>
 				<div className="pb-0 md:py-10 flex-1 text-white"></div>
 			</div>
-			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-8">
+			<div className="container md:px-20 mx-auto flex flex-col md:flex-row p-4 md:p-8">
 				<div className="flex-1 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-4 pb-10">
 					{faqData.map((item, index) => (
 						<div key={index} className="py-4">

@@ -1,5 +1,5 @@
-import layer1 from './../assets/wave2.png';
-import layer2 from './../assets/wave1.png';
+import layer1 from './../assets/wave1.png';
+import layer2 from './../assets/wave2.png';
 import robotHand from './../assets/robotHand.png';
 import notification from './../assets/notification.png';
 import ikImage from './../assets/1kImage.png';
@@ -14,22 +14,18 @@ const Header = () => {
 	return (
 		<header
 			id="home"
-			className="bg-[#06002B] text-white pt-20 relative w-full overflow-hidden"
+			className="bg-transparent text-white pt-20 relative w-full overflow-hidden"
 		>
-			<div className="absolute top-0 left-0 w-full h-full z-10 ">
-				<img
-					src={layer2}
-					alt="appstore"
-					className="object-cover object-center w-full h-full"
-				/>
-			</div>
-			<div className="absolute top-0 left-0 w-full h-full z-10">
-				<img
-					src={layer1}
-					alt="appstore"
-					className="object-cover object-center w-full h-full"
-				/>
-			</div>
+			<img
+				src={layer1}
+				alt="appstore"
+				className="absolute top-0 left-0 object-cover object-center w-full h-full z-10 bg-[#06002B]"
+			/>
+			<img
+				src={layer2}
+				alt="appstore"
+				className="absolute top-0 left-0 object-cover object-center w-full h-full z-10 "
+			/>
 			<div className="md:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
 					<div className="absolute right-40 top-20  h-full hidden md:block z-10">
@@ -133,7 +129,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-full container mx-auto  md:mt-4 relative z-20 pb-52">
+			<div className="w-full container mx-auto  md:mt-10 relative z-20 ">
 				<div className="relative w-full h-[260px]  md:h-[420px] md:flex items-center ">
 					<div className="absolute right-40 top-4  h-full  z-10 md:hidden">
 						<img

@@ -9,7 +9,7 @@ const Index = () => {
 		<div className="bg-[#06002B] min-h-screen w-full relative">
 			<Navbar />
 			<Part />
-			<div className="container md:max-w-6xl mx-auto flex flex-col gap-4 md:flex-row pt-26  p-4 md:p-10 md:min-h-[60vh] items-center ">
+			<div className="container md:px-20 mx-auto flex flex-col gap-4 md:flex-row pt-26  p-4 md:p-10 md:min-h-[60vh] items-center ">
 				<div className="flex-1 text-white">
 					<h2 className="text-xl md:text-3xl font-semibold mt-20 md:mt-0 mb-4">
 						Licence

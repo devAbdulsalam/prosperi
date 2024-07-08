@@ -9,7 +9,7 @@ function Index() {
 		<div className="bg-[#06002B] min-h-screen w-full relative">
 			<Navbar />
 			<Part />
-			<div className="container md:max-w-6xl mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
+			<div className="container md:px-20 mx-auto flex flex-col md:flex-row p-4 md:p-10 md:min-h-[60vh] items-center">
 				<div className="flex-1 text-white">
 					<motion.h3
 						initial={{ opacity: 0, y: 50 }}

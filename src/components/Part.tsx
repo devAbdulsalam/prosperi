@@ -156,6 +156,10 @@ const App = () => {
 					// options={options}
 					// particlesLoaded={particlesLoaded}
 					options={{
+						fullScreen: {
+							enable: true,
+							zIndex: -50000,
+						},
 						background: {
 							color: {
 								value: 'white',
