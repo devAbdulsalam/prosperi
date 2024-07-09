@@ -29,7 +29,7 @@ const Header = () => {
 			/>
 			<div className="md:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
-					<div className="absolute md:right-44 lg:right-56 top-32 h-full hidden lg:block z-10">
+					<div className="absolute md:right-44 lg:right-56 top-40 h-full hidden lg:block z-10">
 						<img
 							src={headerPhone}
 							alt="Background Image"
@@ -79,7 +79,7 @@ const Header = () => {
 							alt="circlefull"
 							className="object-cover md:hidden object-center debug absolute -top-20 -right-24 w-[180px] h-[180px] -z-10 opacity-20"
 						/> */}
-						<div className="md:w-3/4 lg:w-1/2 mb-4 md:mb-0 pt-4 md:pt-20">
+						<div className="md:w-3/4 lg:w-1/2 mb-4 md:mb-0 pt-4 md:pt-28">
 							<motion.div
 								initial={{ opacity: 0, y: 50 }}
 								whileInView={{
@@ -193,10 +193,10 @@ const Header = () => {
 						<img
 							src={ikImage}
 							alt="appstore"
-							className="object-cover object-center w-[320px]  z-10 lg:hidden"
+							className="object-cover object-center w-[320px] z-10 lg:hidden"
 						/>
 					</div>
-					<div className="z-10 hidden md:block -right-32 -bottom-[400px] absolute lg:-right-20 lg:-bottom-20">
+					<div className="z-10 hidden md:block -right-32 -bottom-[400px] absolute lg:-right-12 lg:-bottom-16">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 				</div>

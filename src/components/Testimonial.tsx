@@ -152,17 +152,18 @@ const TestimonialSlider = () => {
 					modules={[Autoplay, Navigation, Pagination]}
 					// width={'100%'}
 					// navigation
+					className="md:grid h-auto md:grid-cols-3 w-full justify-center items-center"
 				>
 					{testimonials.map((item, index) => {
 						return (
-							<SwiperSlide key={index}>
-								<div className="h-82 flex w-full">
+							<SwiperSlide key={index} className="h-full flex items-center">
+								<div className="h-82 grid w-full items-center flex-col justify-center ">
 									<div
 										className={`bg-gradient-to-r shadow rounded-lg p-2 md:p-8 ${
 											currentIndex === index
 												? 'from-[#252B4F] to-[#252B4F] h-82'
 												: ' bg-[#252B4F] h-52'
-										} duration-500 ease-in-out self-end`}
+										} duration-500 ease-in-out self-center my-auto`}
 									>
 										<p className="text-white mb-4">{item.text}</p>
 										<div
@@ -215,5 +216,4 @@ const TestimonialSlider = () => {
 		</section>
 	);
 };
-
 export default TestimonialSlider;
