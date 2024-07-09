@@ -34,9 +34,9 @@ const Header = () => {
 			>
 				<div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#7274e6] to-[#5856e2] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem] clipPath"></div>
 			</div>
-			<div className="md:container mx-auto">
+			<div className="xl:container mx-auto">
 				<div className="relative w-full h-[320px]  md:h-[420px]">
-					<div className="absolute md:right-44 lg:right-56 top-40 h-full hidden lg:block z-10">
+					<div className="absolute md:right-44 lg:right-56  top-40 h-full hidden lg:block z-10">
 						<img
 							src={headerPhone}
 							alt="Background Image"
@@ -191,11 +191,11 @@ const Header = () => {
 					<div className="absolute -bottom-60 right-0  z-10  md:hidden">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
-					<div className="z-50 xl:z-10 hidden md:block absolute md:left-12 lg:left-24 md:top-24 lg:top-14 lg:bottom-14">
+					<div className="z-50 xl:z-10 hidden md:block absolute md:left-12 lg:-left-6 xl:left-24 md:top-24 lg:top-14 lg:bottom-14 ">
 						<img
 							src={ikImage}
 							alt="appstore"
-							className="object-cover object-center z-10 hidden lg:block"
+							className="object-cover object-center z-10 hidden lg:block  "
 						/>
 						<img
 							src={ikImage}
@@ -203,7 +203,7 @@ const Header = () => {
 							className="object-cover object-center w-[320px] z-10 lg:hidden"
 						/>
 					</div>
-					<div className="z-10 hidden md:block -right-32 -bottom-[400px] absolute lg:-right-12 lg:-bottom-16">
+					<div className="z-10 hidden md:block -right-32 -bottom-[400px] absolute xl:-right-12 lg:-bottom-16 lg:-right">
 						<BouncingImage src={robotHand} alt="robotHand" />
 					</div>
 				</div>
